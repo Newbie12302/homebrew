@@ -3099,7 +3099,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 3,
 			"entries": [
-				"Some wizards fill spellbooks. Others preserve discoveries, theories, and fragments of forgotten lore. You possess something fundamentally different.",
+				"Starting at 3rd level, you gain the benefits of this feature. Some wizards fill spellbooks. Others preserve discoveries, theories, and fragments of forgotten lore. You possess something fundamentally different.",
 				"You gain the Pact of the Tome Eldritch Invocation without needing to meet its prerequisites. It doesn't count against the number of Eldritch Invocations granted by Forbidden Invocations. The Book of Shadows created by Pact of the Tome becomes your Archive and also functions as your Wizard spellbook.",
 				{
 					"type": "entries",
@@ -3142,7 +3142,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 3,
 			"entries": [
-				"You gain two Eldritch Invocations of your choice from the Warlock class.",
+				"Starting at 3rd level, you gain the benefits of this feature. You gain two Eldritch Invocations of your choice from the Warlock class.",
 				"You ignore all prerequisites for Eldritch Invocations gained through this feature, including Warlock level, character level, Pact, Patron or subclass, spell or cantrip, Warlock feature, another Invocation, or any other listed prerequisite.",
 				"If an Invocation refers to a prerequisite you don't possess, you are treated as possessing that prerequisite only for the purpose of using that Invocation. This doesn't actually grant the prerequisite or qualify you for anything else.",
 				"If an Invocation uses a spellcasting ability, spell attack modifier, or spell save DC, you can use your Intelligence and Wizard spellcasting statistics.",
@@ -3189,7 +3189,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 3,
 			"entries": [
-				"When you reach a Wizard level shown in the Archive Spells table, the listed spells are automatically added to your Archive if they aren't already recorded there. Adding them requires no gold, time, or material expenditure. They aren't automatically prepared unless another feature says otherwise.",
+				"Starting at 3rd level, you gain the benefits of this feature. When you reach a Wizard level shown in the Archive Spells table, the listed spells are automatically added to your Archive if they aren't already recorded there. Adding them requires no gold, time, or material expenditure. They aren't automatically prepared unless another feature says otherwise.",
 				{
 					"type": "table",
 					"caption": "Archive Spells",
@@ -3247,7 +3247,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 6,
 			"entries": [
-				"The Archive has learned to claim knowledge without destroying the object that contained it.",
+				"Starting at 6th level, you gain the benefits of this feature. The Archive has learned to claim knowledge without destroying the object that contained it.",
 				{
 					"type": "entries",
 					"name": "Merge Spellbook",
@@ -3297,7 +3297,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 10,
 			"entries": [
-				"As a Bonus Action, you fully open the Archive's Living Index for 1 minute. Once you use this feature, you can't use it again until you finish a Long Rest unless you expend a 4th-level or higher spell slot to activate it again.",
+				"Starting at 10th level, you gain the benefits of this feature. As a Bonus Action, you fully open the Archive's Living Index for 1 minute. Once you use this feature, you can't use it again until you finish a Long Rest unless you expend a 4th-level or higher spell slot to activate it again.",
 				{
 					"type": "entries",
 					"name": "Every Page at Hand",
@@ -3329,7 +3329,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 14,
 			"entries": [
-				"For years, the Archive has watched, written, merged, and remembered. Eventually, its accumulated knowledge begins acting with a will of its own.",
+				"Starting at 14th level, you gain the benefits of this feature. For years, the Archive has watched, written, merged, and remembered. Eventually, its accumulated knowledge begins acting with a will of its own.",
 				{
 					"type": "entries",
 					"name": "Living Archive",
@@ -3377,7 +3377,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 17,
 			"entries": [
-				"\"Ninth-level magic? Is that truly where you believe magic ends?\"",
+				"Starting at 17th level, you gain the benefits of this feature. \"Ninth-level magic? Is that truly where you believe magic ends?\"",
 				"\"You mistake the limits of those who came before you for the limits of magic itself.\"",
 				"\"The ninth circle was never the end. It was merely the point where everyone else stopped.\"",
 				{
@@ -3413,7 +3413,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 20,
 			"entries": [
-				"There was once a difference between the Keeper and the Archive. One possessed the mind, while the other possessed the pages. That distinction has finally disappeared.",
+				"Starting at 20th level, you gain the benefits of this feature. There was once a difference between the Keeper and the Archive. One possessed the mind, while the other possessed the pages. That distinction has finally disappeared.",
 				{
 					"type": "entries",
 					"name": "The Archive Within",
@@ -3447,7 +3447,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 3,
 			"entries": [
-				"Most sorcerers possess magic. In you, that distinction has begun to disappear. Your body has become less a vessel for sorcery and more a spell that learned how to breathe.",
+				"Starting at 3rd level, you gain the benefits of this feature. Most sorcerers possess magic. In you, that distinction has begun to disappear. Your body has become less a vessel for sorcery and more a spell that learned how to breathe.",
 				"Your magic has become inseparable from your physical existence.",
 				"When you cast a Sorcerer spell of 1st level or higher, choose one Manifestation that lasts until the start of your next turn:",
 				{
@@ -3471,7 +3471,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 3,
 			"entries": [
-				"As a Bonus Action, you can spend 2 Sorcery Points to partially abandon your physical form for 1 minute.",
+				"Starting at 3rd level, you gain the benefits of this feature. As a Bonus Action, you can spend 2 Sorcery Points to partially abandon your physical form for 1 minute.",
 				"While in Spellform:",
 				{
 					"type": "list",
@@ -3495,7 +3495,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 6,
 			"entries": [
-				"Whenever you cast a Sorcerer spell, you can spend 1 Sorcery Point to alter one of the following properties for that casting:",
+				"Starting at 6th level, you gain the benefits of this feature. Whenever you cast a Sorcerer spell, you can spend 1 Sorcery Point to alter one of the following properties for that casting:",
 				{
 					"type": "list",
 					"items": [
@@ -3517,7 +3517,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 14,
 			"entries": [
-				"Your Spellform improves.",
+				"Starting at 14th level, you gain the benefits of this feature. Your Spellform improves.",
 				"While it is active:",
 				{
 					"type": "list",
@@ -3541,7 +3541,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 18,
 			"entries": [
-				"There is no longer a meaningful point at which you end and your magic begins.",
+				"Starting at 18th level, you gain the benefits of this feature. There is no longer a meaningful point at which you end and your magic begins.",
 				"Once on each of your turns when you cast a Sorcerer spell of 1st level or higher, you can temporarily become part of that spell until it finishes resolving.",
 				"During that casting:",
 				{
@@ -3565,7 +3565,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 3,
 			"entries": [
-				"Most warriors learn where steel stops being useful. You learned that those limits were merely assumptions. A wall, a spell, a binding, even the space between two places—if it stands in your way, it can be struck.",
+				"Starting at 3rd level, you gain the benefits of this feature. Most warriors learn where steel stops being useful. You learned that those limits were merely assumptions. A wall, a spell, a binding, even the space between two places—if it stands in your way, it can be struck.",
 				"Your weapon attacks and Unarmed Strikes count as magical for the purpose of overcoming Resistance and Immunity.",
 				"You can physically attack magical effects that possess a tangible boundary or occupy an area, such as magical barriers, walls, restraints, summoned bindings, and similar manifestations.",
 				"When you attack such an effect, make an attack roll against an AC equal to 10 + the spell's level, or 15 if the effect has no spell level.",
@@ -3584,7 +3584,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 7,
 			"entries": [
-				"You have Advantage on ability checks and saving throws made to escape the Grappled, Restrained, or Paralyzed condition.",
+				"Starting at 7th level, you gain the benefits of this feature. You have Advantage on ability checks and saving throws made to escape the Grappled, Restrained, or Paralyzed condition.",
 				"When you fail such a saving throw, you can expend one use of Second Wind to succeed instead.",
 				"You can also use an Action to strike a magical condition affecting yourself or a creature within your reach.",
 				"Make one weapon attack or Unarmed Strike against AC 10 + the level of the effect. On a hit, one of the following conditions caused by that effect ends on the target: Charmed, Frightened, Grappled, Paralyzed, Restrained, or Stunned.",
@@ -3600,7 +3600,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 10,
 			"entries": [
-				"Once on each of your turns when you hit a creature with a weapon attack or Unarmed Strike, you can force one magical effect currently affecting that creature to make a Constitution saving throw.",
+				"Starting at 10th level, you gain the benefits of this feature. Once on each of your turns when you hit a creature with a weapon attack or Unarmed Strike, you can force one magical effect currently affecting that creature to make a Constitution saving throw.",
 				"The DC equals 8 + your Proficiency Bonus + your Strength or Dexterity modifier, using the modifier used for the attack.",
 				"On a failed save, choose one:",
 				{
@@ -3624,7 +3624,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 15,
 			"entries": [
-				"When a creature you can see within 60 feet attempts to teleport or magically move to another space, you can use your Reaction to make one weapon attack against it.",
+				"Starting at 15th level, you gain the benefits of this feature. When a creature you can see within 60 feet attempts to teleport or magically move to another space, you can use your Reaction to make one weapon attack against it.",
 				"For this attack only, your weapon's reach or range extends far enough to reach the creature.",
 				"If the attack hits, the creature takes damage normally and must make a Constitution saving throw against your Strike Through Magic DC.",
 				"On a failure, the teleportation or magical movement fails, and any Action, Bonus Action, Reaction, spell slot, or other resource spent to attempt it is still expended.",
@@ -3640,7 +3640,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 18,
 			"entries": [
-				"By this point, the distinction between physical and untouchable has stopped mattering to you.",
+				"Starting at 18th level, you gain the benefits of this feature. By this point, the distinction between physical and untouchable has stopped mattering to you.",
 				"Your attacks can interact with Force effects, incorporeal creatures, ethereal creatures, magical barriers, and similar effects as though they were physically present.",
 				"When you hit a creature, object, or magical effect, you can declare the hit a Perfect Break.",
 				"The attack:",
@@ -3667,7 +3667,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 3,
 			"entries": [
-				"You do not approach magic as a scholar does. You do not memorize formulae, trace perfect sigils, or shape power through abstract theory. You force magic into the same patterns your body already understands—stance, timing, reach, leverage, and impact.",
+				"Starting at 3rd level, you gain the benefits of this feature. You do not approach magic as a scholar does. You do not memorize formulae, trace perfect sigils, or shape power through abstract theory. You force magic into the same patterns your body already understands—stance, timing, reach, leverage, and impact.",
 				"To a Spellblade, a spell is not separate from a strike. It is another technique performed through the weapon.",
 				"You gain the ability to cast spells from the Wizard spell list.",
 				"Your Spellblade magic is learned through combat practice rather than conventional arcane study. Every spell is adapted into a martial technique: a slash that releases flame, a thrust that carries force beyond the blade, an arrow carrying an arcane effect, a defensive motion that hardens into a ward, or a practiced stance that shapes magic around you.",
@@ -3731,7 +3731,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 3,
 			"entries": [
-				"Your first lesson is simple: casting and attacking were never required to be separate motions.",
+				"Starting at 3rd level, you gain the benefits of this feature. Your first lesson is simple: casting and attacking were never required to be separate motions.",
 				"When you take the Attack action, you can replace one of your attacks with the casting of a Spellblade cantrip that normally has a casting time of an Action.",
 				"If the cantrip requires a weapon attack as part of its casting, that attack counts as the attack you replaced.",
 				"In addition, once on each of your turns when you hit with a weapon attack, you can change that attack's damage type to Force, Psychic, or a damage type dealt by one of your currently prepared Spellblade spells.",
@@ -3747,7 +3747,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 5,
 			"entries": [
-				"Steel creates the opening. Magic follows before the motion has even ended.",
+				"Starting at 5th level, you gain the benefits of this feature. Steel creates the opening. Magic follows before the motion has even ended.",
 				"Once on each of your turns when you hit with a weapon attack, you can immediately cast one Spellblade cantrip with a casting time of an Action.",
 				"Casting the cantrip this way:",
 				{
@@ -3773,7 +3773,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 7,
 			"entries": [
-				"By now, you no longer shape a spell around a particular weapon. You shape the spell around the act of making an attack.",
+				"Starting at 7th level, you gain the benefits of this feature. By now, you no longer shape a spell around a particular weapon. You shape the spell around the act of making an attack.",
 				"When you cast a Spellblade spell of 1st level or higher with a casting time of an Action, you can make one weapon attack as part of the same Action.",
 				"Alternatively, when you take the Attack action, you can replace one of your attacks with the casting of a Spellblade spell of 1st level or higher that normally has a casting time of an Action.",
 				"You can replace an attack with a leveled spell this way a number of times equal to your Proficiency Bonus, regaining all expended uses when you finish a Long Rest.",
@@ -3796,7 +3796,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 10,
 			"entries": [
-				"Every strike leaves a weakness in more than flesh. You have learned to make your magic follow the opening your weapon creates.",
+				"Starting at 10th level, you gain the benefits of this feature. Every strike leaves a weakness in more than flesh. You have learned to make your magic follow the opening your weapon creates.",
 				"Once on each of your turns when you hit a creature with a weapon attack, choose that creature.",
 				"The next saving throw it makes against one of your Spellblade spells before the end of your next turn is made with Disadvantage.",
 				"If the next Spellblade spell you use against that creature instead requires an attack roll, you have Advantage on the first spell attack roll you make against it before the end of your next turn.",
@@ -3812,7 +3812,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 15,
 			"entries": [
-				"Distance is merely another interval between one technique and the next.",
+				"Starting at 15th level, you gain the benefits of this feature. Distance is merely another interval between one technique and the next.",
 				"Immediately after you cast a Spellblade spell or make a weapon attack as part of your Attack action, you can teleport up to 30 feet to an unoccupied space you can see.",
 				"You can teleport this way once on each of your turns.",
 				"If you appear within the reach of a weapon you are wielding, the next weapon attack you make against a creature within that reach before the end of the current turn has Advantage.",
@@ -3828,7 +3828,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 18,
 			"entries": [
-				"At this point, swordplay and spellcasting are no longer separate disciplines. They are simply different parts of the same technique.",
+				"Starting at 18th level, you gain the benefits of this feature. At this point, swordplay and spellcasting are no longer separate disciplines. They are simply different parts of the same technique.",
 				"When you take the Attack action, you can replace any number of your attacks with the casting of different Spellblade cantrips that normally have a casting time of an Action.",
 				"You can't cast the same cantrip more than once during the same Attack action through this feature.",
 				"In addition, once on each of your turns when you cast a Spellblade spell of 1st level or higher, you can immediately make one weapon attack without using an Action or Bonus Action.",
@@ -3845,7 +3845,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 3,
 			"entries": [
-				"You do not memorize magic as a scholar does. You teach it to your body until casting becomes as natural as throwing a punch.",
+				"Starting at 3rd level, you gain the benefits of this feature. You do not memorize magic as a scholar does. You teach it to your body until casting becomes as natural as throwing a punch.",
 				"You gain the ability to cast spells from the Wizard spell list.",
 				"Unlike conventional arcane spellcasters, your magic is shaped through physical practice. Each spell is transformed into a fighting technique: a punch that releases flame, a guard that becomes a magical ward, a step that distorts distance, or a strike whose force continues long after your fist stops moving.",
 				{
@@ -3906,7 +3906,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 3,
 			"entries": [
-				"You do not need steel to give magic an edge. Your hands are weapon enough.",
+				"Starting at 3rd level, you gain the benefits of this feature. You do not need steel to give magic an edge. Your hands are weapon enough.",
 				"When you take the {@action Attack|XPHB} action, you can replace one of your attacks with the casting of a Spellfist cantrip that normally has a casting time of an Action.",
 				"After casting the cantrip, you can make any remaining attacks granted by that Attack action normally.",
 				"For the purpose of your Spellfist spells, your {@variantrule Unarmed Strike|XPHB|Unarmed Strikes} count as melee weapons with which you are proficient.",
@@ -3926,7 +3926,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 5,
 			"entries": [
-				"Once your fist creates an opening, magic doesn't wait for you to reset your stance.",
+				"Starting at 5th level, you gain the benefits of this feature. Once your fist creates an opening, magic doesn't wait for you to reset your stance.",
 				"Once on each of your turns when you hit a creature with an {@variantrule Unarmed Strike|XPHB}, you can expend 1 {@classFeature Moxie|Pugilist|Pugilist2024|2|Pugilist2024|Moxie Point} to immediately cast one Spellfist cantrip with a casting time of an Action.",
 				"Casting the cantrip this way requires no Action or Bonus Action, is considered part of the same Attack action, and doesn't prevent you from making any remaining attacks granted by Extra Attack.",
 				"The cantrip can target the creature you hit or another legal target.",
@@ -3944,7 +3944,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 6,
 			"entries": [
-				"To you, Moxie and magic are no longer different kinds of power. They're simply different ways of forcing yourself past what should be possible.",
+				"Starting at 6th level, you gain the benefits of this feature. To you, Moxie and magic are no longer different kinds of power. They're simply different ways of forcing yourself past what should be possible.",
 				"When you cast a Spellfist spell of 1st level or higher, you can expend Moxie Points instead of expending a spell slot.",
 				"The number of Moxie Points required equals the level at which you cast the spell.",
 				{
@@ -3973,7 +3973,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 11,
 			"entries": [
-				"Your spells no longer interrupt your combinations. They are simply another impact between one fist and the next.",
+				"Starting at 11th level, you gain the benefits of this feature. Your spells no longer interrupt your combinations. They are simply another impact between one fist and the next.",
 				"Once on each of your turns when you deal damage to one or more creatures with a Spellfist spell, you can immediately make one {@variantrule Unarmed Strike|XPHB} without using an Action or Bonus Action.",
 				"Likewise, once on each of your turns when you hit a creature with an Unarmed Strike, you can immediately cast one Spellfist cantrip with a casting time of an Action without using an Action or Bonus Action.",
 				"You can benefit from each of these effects once during the same turn.",
@@ -3992,7 +3992,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 17,
 			"entries": [
-				"There is no longer a point where the punch ends and the spell begins. They are the same technique expressed in different ways.",
+				"Starting at 17th level, you gain the benefits of this feature. There is no longer a point where the punch ends and the spell begins. They are the same technique expressed in different ways.",
 				"When you take the {@action Attack|XPHB} action, you can replace any number of your attacks with the casting of different Spellfist cantrips that normally have a casting time of an Action.",
 				"You can't cast the same cantrip more than once as part of the same Attack action through this feature.",
 				"In addition, once on each of your turns when you hit a creature with an {@variantrule Unarmed Strike|XPHB}, you can expend Moxie Points equal to the level of one of your prepared Spellfist spells to cast that spell immediately.",
@@ -4013,7 +4013,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 3,
 			"entries": [
-				"You have stopped asking what a body should be capable of.",
+				"Starting at 3rd level, you gain the benefits of this feature. You have stopped asking what a body should be capable of.",
 				"Your {@variantrule Unarmed Strike|XPHB|Unarmed Strikes} count as magical for the purpose of overcoming Resistance and Immunity to nonmagical attacks and damage.",
 				"For the purpose of carrying, lifting, pushing, dragging, Grappling, and Shoving, you count as one size larger than you actually are.",
 				"Whenever you hit a creature with an {@variantrule Unarmed Strike|XPHB}, you can roll twice the normal number of Fisticuffs dice for that attack's normal damage.",
@@ -4037,7 +4037,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 5,
 			"entries": [
-				"Eventually, every defense reaches the point where it simply cannot absorb another hit.",
+				"Starting at 5th level, you gain the benefits of this feature. Eventually, every defense reaches the point where it simply cannot absorb another hit.",
 				"Once on each of your turns when you hit with an {@variantrule Unarmed Strike|XPHB}, that attack deals additional damage equal to one roll of your Fisticuffs die. This additional damage requires no Moxie Point.",
 				"For that attack, Resistance to its damage is ignored; Immunity to its damage is treated as Resistance instead; an effect that reduces the attack's damage reduces it by only half as much; and you ignore bonuses to AC provided by Shields, Half Cover, and Three-Quarters Cover.",
 				"After the attack deals damage, choose one of the following effects: push the target up to 15 feet away from you, or knock the target {@condition Prone|XPHB}.",
@@ -4055,7 +4055,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 6,
 			"entries": [
-				"Pain is information. Your body has learned that most of it isn't worth acknowledging.",
+				"Starting at 6th level, you gain the benefits of this feature. Pain is information. Your body has learned that most of it isn't worth acknowledging.",
 				"Whenever you take damage, reduce that damage by one roll of your Fisticuffs die + your Constitution modifier + your Pugilist level.",
 				"This damage reduction requires no Action, Bonus Action, or Reaction; costs no Moxie Points; has no usage limit; and applies every time you take damage.",
 				"This reduction is always applied after every other modification to the damage has been resolved. Determine the damage normally first, including Resistance, Immunity, Vulnerability, effects that halve or multiply damage, other damage reductions, and any other feature that changes the amount of damage you would actually take.",
@@ -4077,7 +4077,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 8,
 			"entries": [
-				"Magic may ignore ordinary strength. Yours stopped being ordinary a long time ago.",
+				"Starting at 8th level, you gain the benefits of this feature. Magic may ignore ordinary strength. Yours stopped being ordinary a long time ago.",
 				"Your {@variantrule Unarmed Strike|XPHB|Unarmed Strikes} can physically interact with ongoing magical effects that possess a tangible form or occupy physical space, such as magical walls and barriers, magical restraints or bindings, magically created or conjured objects, Force constructs, magical cages, chains, shields, and similar manifestations.",
 				"You don't need a special weapon, damage type, or magical property to strike such an effect.",
 				"If the magical effect already has an AC and Hit Points, you can attack and damage it normally with your Unarmed Strikes.",
@@ -4098,7 +4098,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 11,
 			"entries": [
-				"Hurting you is difficult. Making you stay where someone else wants you is worse.",
+				"Starting at 11th level, you gain the benefits of this feature. Hurting you is difficult. Making you stay where someone else wants you is worse.",
 				"At the start of each of your turns, you can end one of the following conditions on yourself: {@condition Charmed|XPHB}, {@condition Frightened|XPHB}, {@condition Grappled|XPHB}, {@condition Paralyzed|XPHB}, {@condition Restrained|XPHB}, or {@condition Stunned|XPHB}. Ending a condition this way requires no Action, Bonus Action, or Reaction and costs no Moxie Points.",
 				"Difficult Terrain costs you no additional movement.",
 				"Standing from {@condition Prone|XPHB} costs you only 5 feet of movement.",
@@ -4119,7 +4119,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 14,
 			"entries": [
-				"At first, only magic with shape could be broken by your fists. Eventually, even magic anchored to flesh, steel, and stone began to come apart under the impact.",
+				"Starting at 14th level, you gain the benefits of this feature. At first, only magic with shape could be broken by your fists. Eventually, even magic anchored to flesh, steel, and stone began to come apart under the impact.",
 				"Your Unarmed Strikes can now interact with ongoing magical effects attached to a creature or object, even if the effect doesn't possess a separate physical form.",
 				"When you hit a creature or object with an {@variantrule Unarmed Strike|XPHB}, you can choose one spell or magical effect currently affecting it.",
 				"The effect must make a Constitution saving throw against a DC equal to 8 + your {@variantrule Proficiency|XPHB|Proficiency Bonus} + your Strength modifier.",
@@ -4140,7 +4140,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 17,
 			"entries": [
-				"Strength is no longer something you measure against another creature. It is the condition the battlefield is forced to accept when you arrive.",
+				"Starting at 17th level, you gain the benefits of this feature. Strength is no longer something you measure against another creature. It is the condition the battlefield is forced to accept when you arrive.",
 				"For the purpose of carrying, lifting, pushing, dragging, Grappling, and Shoving, you count as Gargantuan if your actual size is smaller.",
 				"You can attempt to Grapple or Shove a creature regardless of its size.",
 				"Your Speed isn't reduced as a result of Grappling, dragging, carrying, or otherwise forcibly moving another creature.",
@@ -4168,7 +4168,7 @@
 			"subclassSource": "FftForbiddenTome",
 			"level": 20,
 			"entries": [
-				"There is no longer a meaningful distinction between something that can be moved and something that cannot. There is only the amount of force required.",
+				"Starting at 20th level, you gain the benefits of this feature. There is no longer a meaningful distinction between something that can be moved and something that cannot. There is only the amount of force required.",
 				"Whenever you make a Strength check or Strength saving throw, you can treat a d20 roll of 9 or lower as a 10.",
 				"You can attempt feats of raw physical strength that would normally be considered impossible solely because of weight, size, structural strength, or scale.",
 				"You can attempt to lift or overturn structures, hold collapsing architecture in place, force open enormous gates, drag creatures or objects vastly heavier than yourself, tear apart magically reinforced physical structures, stop or redirect massive moving objects, or physically resist forces that would normally move a creature automatically.",
