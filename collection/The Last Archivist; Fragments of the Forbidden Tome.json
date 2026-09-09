@@ -10621,9 +10621,6 @@
       "damageInflict": [
         "force"
       ],
-      "miscTags": [
-        "M"
-      ],
       "classes": {
         "fromClassList": [
           {
@@ -10698,9 +10695,6 @@
       ],
       "damageInflict": [
         "force"
-      ],
-      "miscTags": [
-        "M"
       ],
       "classes": {
         "fromClassList": [
@@ -10793,9 +10787,6 @@
       ],
       "areaTags": [
         "S"
-      ],
-      "miscTags": [
-        "M"
       ],
       "classes": {
         "fromClassList": [
@@ -10912,9 +10903,6 @@
       ],
       "damageInflict": [
         "necrotic"
-      ],
-      "miscTags": [
-        "M"
       ],
       "classes": {
         "fromClassList": [
@@ -11071,9 +11059,6 @@
       ],
       "damageInflict": [
         "radiant"
-      ],
-      "miscTags": [
-        "M"
       ],
       "classes": {
         "fromClassList": [
