@@ -10624,7 +10624,7 @@
 				"fromClassList": [
 					{
 						"name": "Artificer",
-						"source": "TCE"
+						"source": "EFA"
 					},
 					{
 						"name": "Sorcerer",
@@ -10699,7 +10699,7 @@
 				"fromClassList": [
 					{
 						"name": "Artificer",
-						"source": "TCE"
+						"source": "EFA"
 					},
 					{
 						"name": "Bard",
@@ -10791,7 +10791,7 @@
 				"fromClassList": [
 					{
 						"name": "Artificer",
-						"source": "TCE"
+						"source": "EFA"
 					},
 					{
 						"name": "Sorcerer",
