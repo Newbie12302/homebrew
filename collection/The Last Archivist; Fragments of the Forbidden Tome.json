@@ -4757,6 +4757,15 @@
 					"entries": [
 						"You learn one additional Conquerer Technique when you reach Pugilist levels 8, 11, 14, and 17."
 					]
+				},
+				{
+					"type": "entries",
+					"name": "Weaponized Body",
+					"entries": [
+						"Your Unarmed Strikes count as proficient melee weapons worth 1 gp for the purpose of your Conquerer Techniques.",
+						"Your body can be targeted and treated as a weapon by a Conquerer Technique that targets, enchants, empowers, imbues, coats, alters, or otherwise affects a weapon.",
+						"If such a technique normally requires you to hold or wield the affected weapon, you are considered to be holding and wielding your own body for that purpose."
+					]
 				}
 			]
 		},
@@ -11297,6 +11306,15 @@
 					"entries": [
 						{
 							"type": "entries",
+							"name": "Level 2 \u2014 Arsenal Enhancement",
+							"entries": [
+								"Every weapon in your Arsenal gains a +1 bonus to attack and damage rolls while you wield it.",
+								"This bonus becomes +2 at 7th level and +3 at 13th level.",
+								"If a weapon already grants a bonus to its attack or damage rolls from being a Magic Item, use the higher bonus rather than adding the bonuses together."
+							]
+						},
+						{
+							"type": "entries",
 							"name": "Level 5 \u2014 Awakened Arsenal",
 							"entries": [
 								"Every weapon in your Arsenal is considered magical while you wield it.",
@@ -11310,7 +11328,14 @@
 										"{@b Unburdened.} The weapon loses the Heavy property for you."
 									]
 								},
-								"You choose again whenever that weapon is summoned."
+								"You choose again whenever that weapon is summoned.",
+								{
+									"type": "entries",
+									"name": "Extra Attack",
+									"entries": [
+										"Starting at 5th level, you can attack twice instead of once whenever you take the Attack action on your turn."
+									]
+								}
 							]
 						},
 						{
@@ -14409,6 +14434,151 @@
 								"Damage actually suffered during the Titan's existence can leave individual components damaged, broken, scattered, or destroyed as appropriate."
 							]
 						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Relic Assimilation",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"pact": "Pact of the Arsenal"
+				}
+			],
+			"entries": [
+				"The Arsenal does not merely preserve enchanted weapons. It learns them.",
+				"Every relic placed within it becomes another principle of violence written into the whole armory.",
+				"A single legendary edge can teach a thousand lesser weapons how to bite.",
+				{
+					"type": "entries",
+					"name": "Arsenal Relics",
+					"entries": [
+						"When you finish a Long Rest, choose a number of eligible Magic Items stored within your Arsenal up to your Proficiency Bonus. The chosen items become your Arsenal Relics until you choose again when you finish a Long Rest.",
+						"An eligible item must be a weapon, ammunition, or a Magic Item whose magical properties directly modify a weapon or weapon attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Total Assimilation",
+					"entries": [
+						"While you wield or make an attack with any weapon from your Arsenal, that weapon can use every applicable magical property of all your Arsenal Relics simultaneously.",
+						"For those properties, the Arsenal weapon counts as each Arsenal Relic whenever a property refers to \"this weapon,\" \"the weapon,\" or otherwise requires the effect to originate from that relic."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Relic Without Form",
+					"entries": [
+						"A copied property isn't restricted by the Arsenal Relic's original weapon type, ammunition type, damage type, reach, or range unless the property would be impossible to resolve without that requirement.",
+						"If a property requires a melee attack, ranged attack, thrown attack, Critical Hit, specific target, or another condition created by the attack itself, you must still satisfy that condition."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Convergent Enchantments",
+					"entries": [
+						"Properties from different Arsenal Relics can function on the same attack and their benefits are cumulative, including bonuses to attack rolls, damage rolls, additional damage, Critical Hit effects, and other effects triggered by an attack.",
+						"A property with the same name from multiple Arsenal Relics doesn't stack with itself unless it explicitly says otherwise."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shared Activation",
+					"entries": [
+						"If an Arsenal Relic has a property you can activate while holding, wielding, attacking with, or otherwise using that item, you can activate it through any weapon from your Arsenal as though you were using the Arsenal Relic.",
+						"If the property creates an effect from the relic, you can have that effect originate from the Arsenal weapon you're currently using."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "One Relic, One Resource",
+					"entries": [
+						"The Arsenal shares power, not resources. Charges, limited uses, Recharge, once-per-turn limits, once-per-round limits, and other usage limits remain tied to the original Arsenal Relic.",
+						"Using that property through any Arsenal weapon expends or counts against the original Arsenal Relic's resource normally."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bound Requirements",
+					"entries": [
+						"You must still satisfy an Arsenal Relic's Attunement requirement and any requirement based on the wielder, such as class, creature type, alignment, ability score, or another quality of the wielder.",
+						"Once you satisfy those requirements, every weapon in your Arsenal is treated as satisfying that item's weapon-specific requirements for the copied property."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Transcendent Attunement",
+					"entries": [
+						"As your bond with the Arsenal deepens, the Arsenal learns to sustain relics in your place.",
+						"At 7th level, one of your Arsenal Relics can function through this Invocation even if you are not Attuned to it.",
+						"At 11th level, up to two of your Arsenal Relics can ignore their Attunement requirements this way.",
+						"At 15th level, up to three of your Arsenal Relics can ignore their Attunement requirements this way.",
+						"At 17th level, all of your Arsenal Relics can function through this Invocation without requiring Attunement.",
+						"Ignoring Attunement this way applies only while the item is one of your Arsenal Relics and only to properties used through Relic Assimilation. It doesn't make you Attuned to the item, grant its normal benefits outside the Arsenal, or increase your number of Attunement slots."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Relic Remains Whole",
+					"entries": [
+						"An Arsenal Relic isn't consumed, destroyed, stripped of its magic, or permanently altered by this Invocation.",
+						"It remains a normal Magic Item and can still be summoned and used directly."
+					]
+				}
+			]
+		},
+		{
+			"name": "Arsenal Instinct",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"pact": "Pact of the Arsenal"
+				}
+			],
+			"entries": [
+				"The Arsenal watches every clash.",
+				"It learns what fails, what pierces, and what kind of weapon the next moment demands.",
+				"Before long, you no longer choose the right weapon\u2014the Arsenal does.",
+				{
+					"type": "entries",
+					"name": "Predatory Selection",
+					"entries": [
+						"Whenever you miss a creature with a weapon from your Arsenal, or the creature reduces the damage of that attack through Resistance or Immunity, you can immediately return that weapon to the Arsenal and summon another stored weapon into the same hand. The replacement requires no action.",
+						"Until the end of your turn, your first attack against that creature with the replacement weapon has Advantage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Learned Weakness",
+					"entries": [
+						"Once you damage a creature with a weapon from your Arsenal, the Arsenal remembers that creature until the end of your next Long Rest.",
+						"For a remembered creature, the Arsenal learns how that creature responds to damage dealt by your Arsenal, including any Resistance, Immunity, or Vulnerability revealed by those attacks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Adaptive Armament",
+					"entries": [
+						"Whenever you make a weapon attack against a remembered creature using a weapon from your Arsenal, the Arsenal can alter that attack's damage type to the most effective damage type against that creature.",
+						"If the creature has one or more Vulnerabilities, the attack becomes a damage type to which it is Vulnerable.",
+						"If it has no Vulnerabilities, the Arsenal instead chooses a damage type that the creature neither Resists nor is Immune to, if one is available.",
+						"You don't need to know what damage type was chosen beforehand. The Arsenal determines the most effective option automatically when the attack hits.",
+						"The available damage types are Acid, Bludgeoning, Cold, Fire, Force, Lightning, Necrotic, Piercing, Poison, Psychic, Radiant, Slashing, and Thunder."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Perfect Answer",
+					"entries": [
+						"Starting at 11th level, attacks altered by Adaptive Armament also ignore Resistance to the chosen damage type.",
+						"Starting at 17th level, if the creature has no Vulnerability, the chosen damage type treats the creature as though it had Vulnerability to that damage for that attack."
 					]
 				}
 			]
