@@ -5526,7 +5526,7 @@
 				"force"
 			],
 			"savingThrow": [
-				"str"
+				"strength"
 			]
 		},
 		{
@@ -8376,7 +8376,7 @@
 				]
 			},
 			"savingThrow": [
-				"cha"
+				"charisma"
 			],
 			"areaTags": [
 				"E"
@@ -8606,7 +8606,7 @@
 				]
 			},
 			"savingThrow": [
-				"cha"
+				"charisma"
 			],
 			"damageInflict": [
 				"force",
@@ -8709,7 +8709,7 @@
 				]
 			},
 			"savingThrow": [
-				"cha"
+				"charisma"
 			]
 		},
 		{
@@ -10641,8 +10641,8 @@
 				"force"
 			],
 			"savingThrow": [
-				"dex",
-				"str"
+				"dexterity",
+				"strength"
 			],
 			"classes": {
 				"fromClassList": [
@@ -10869,7 +10869,7 @@
 				"force"
 			],
 			"savingThrow": [
-				"str"
+				"strength"
 			],
 			"areaTags": [
 				"S"
