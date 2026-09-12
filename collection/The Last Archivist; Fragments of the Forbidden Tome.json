@@ -1021,13 +1021,8 @@
 				"Arcane Aberrants are humanoids whose bodies have been permanently altered by magical forces.",
 				"The changes vary enormously between individuals. One may possess unusually colored blood, crystalline growths beneath the skin, shifting patterns across the eyes, or faint magical distortions surrounding their body. Others appear almost entirely ordinary until their magic begins to surface.",
 				"Whether these alterations are inherited, caused by exposure to powerful magic, or originate from something far older remains uncertain. What is known is that the magic within an Arcane Aberrant never remains completely still. Their bodies continue to adapt around it throughout their lives.",
-				{
-					"type": "entries",
-					"name": "Age",
-					"entries": [
-						"Arcane Aberrants reach adulthood at roughly the same rate as Humans. Their maximum lifespan is unknown, and no Arcane Aberrant has yet been confirmed to die from old age."
-					]
-				},
+				"Arcane Aberrants reach adulthood at roughly the same rate as Humans. Their maximum lifespan is unknown, and no Arcane Aberrant has yet been confirmed to die from old age.",
+				"Magic has become an intrinsic part of your body.",
 				{
 					"type": "entries",
 					"name": "Natural Inclination",
@@ -1106,7 +1101,6 @@
 					"type": "entries",
 					"name": "Aberrant Magic",
 					"entries": [
-						"Magic has become an intrinsic part of your body.",
 						"You know the {@spell Prestidigitation|XPHB} cantrip.",
 						"Starting at character level 3, you can cast {@spell Chromatic Orb|XPHB} once without expending a spell slot or providing its Material component.",
 						"Starting at character level 5, you can cast {@spell Alter Self|XPHB} once without expending a spell slot.",
@@ -1152,23 +1146,31 @@
 				"Their creators sought soldiers who could cross spell-ravaged battlefields, resist magical domination, survive supernatural attacks, and continue fighting without relying upon magic of their own. Generations of selective breeding, alchemical alteration, physical refinement, and exposure to hostile magic eventually stabilized these characteristics into an inheritable lineage.",
 				"Modern Warborn are born with these adaptations already written into their bodies.",
 				"The wars that created them may be gone. Their purpose is no longer predetermined. But their bodies have never forgotten what they were built to survive.",
-				{
-					"type": "entries",
-					"name": "A Body That Rejects Magic",
-					"entries": [
-						"A Warborn body is fundamentally incompatible with producing magic.",
-						"It can be affected by magic. It can be healed, strengthened, harmed, transformed, or protected by the magic of another creature. But it cannot become the source of a spell itself.",
-						"Trying to force magical power through a Warborn produces no spell. The body rejects the process before the magic can properly take shape.",
-						"Curiously, this rejection doesn't prevent a Warborn from learning from magic.",
-						"When magic forces their body beyond its natural capabilities, Warborn physiology can study the result and eventually reproduce it through flesh, instinct, sensory development, and physical adaptation.",
-						"The magic disappears. The lesson remains."
-					]
-				},
+				"A Warborn body is fundamentally incompatible with producing magic.",
+				"It can be affected by magic. It can be healed, strengthened, harmed, transformed, or protected by the magic of another creature. But it cannot become the source of a spell itself.",
+				"Trying to force magical power through a Warborn produces no spell. The body rejects the process before the magic can properly take shape.",
+				"Curiously, this rejection doesn't prevent a Warborn from learning from magic.",
+				"When magic forces their body beyond its natural capabilities, Warborn physiology can study the result and eventually reproduce it through flesh, instinct, sensory development, and physical adaptation.",
+				"The magic disappears. The lesson remains.",
+				"Battle is not an unfamiliar state for your body. Movement, balance, weapons, and violence are supported by instincts refined long before you were born. Training improves what was already there.",
+				"Magic can surround you. Magic can strike you. But your body refuses to become its vessel.",
+				"Magic finds less purchase in you than in ordinary flesh. Foreign power must fight your body before it can affect anything else. That resistance begins before conscious thought.",
+				"Your resistance isn't limited to the mind. Skin, muscle, nerves, and organs all participate in rejecting hostile magic. Even successful spells struggle to inflict their full effect.",
+				"Some magic doesn't ask permission. Your body does anyway. Even effects that normally bypass resistance can be forced to contend with you.",
+				"Magic that enters your body hasn't necessarily won. Your physiology continues fighting it for as long as the foreign influence remains. What takes hold can still be expelled.",
+				"Your body knows what it is. Magic attempting to rewrite that answer meets extraordinary resistance. Once rejected, the same intrusion becomes even harder to impose again.",
+				"Warborn were denied the shortcuts magic offered. Their creators compensated with flesh capable of reaching places ordinary bodies could not. Strength was made into infrastructure.",
+				"Warborn bodies carry more than muscle. Their organs, circulation, connective tissue, and ability to survive trauma were all developed for prolonged conflict. They simply contain more life than most bodies their size.",
+				"Thought comes after movement. Your body recognizes the beginning of violence before your conscious mind finishes naming it. By the time others prepare, you have already begun.",
+				"A weapon becomes familiar to a Warborn with disturbing speed. Grip, stance, balance, and timing adjust around it until the weapon behaves like an extension of the body. Technique is absorbed through repetition.",
+				"The Warborn body was developed around the assumption that every successful strike should matter. Strength, leverage, precision, and timing converge instinctively at the moment of impact. For a Warborn, a clean hit is never merely a clean hit.",
+				"Warborn were created to reach the enemy. Terrain, injury, and resistance were treated as problems to be overcome rather than reasons to stop. Once advancing, they are extraordinarily difficult to halt.",
+				"Stopping the heart was never enough. Neither was pain, blood loss, or catastrophic injury. The Warborn body was taught one final lesson: remain standing.",
+				"Magic cannot remain within a Warborn. But the body remembers what magic once made possible. Eventually, imitation becomes biology.",
 				{
 					"type": "entries",
 					"name": "Built for War",
 					"entries": [
-						"Battle is not an unfamiliar state for your body. Movement, balance, weapons, and violence are supported by instincts refined long before you were born. Training improves what was already there.",
 						"You gain proficiency with Martial Weapons, Light Armor, Medium Armor, Heavy Armor, and Shields.",
 						"You also gain proficiency in two skills of your choice from Acrobatics, Athletics, Intimidation, Perception, or Survival.",
 						"Choose one of those two skills. You gain Expertise in it."
@@ -1178,7 +1180,6 @@
 					"type": "entries",
 					"name": "Arcane Rejection",
 					"entries": [
-						"Magic can surround you. Magic can strike you. But your body refuses to become its vessel.",
 						"You can't cast spells by any means.",
 						"You can't gain or expend Spell Slots or Pact Magic slots.",
 						"If a Class, Subclass, Feat, species trait, magic item, or other feature would allow you to cast a spell, you gain no ability to cast that spell.",
@@ -1190,7 +1191,6 @@
 					"type": "entries",
 					"name": "Magic Resistance",
 					"entries": [
-						"Magic finds less purchase in you than in ordinary flesh. Foreign power must fight your body before it can affect anything else. That resistance begins before conscious thought.",
 						"You have Advantage on Saving Throws against spells and other magical effects."
 					]
 				},
@@ -1198,7 +1198,6 @@
 					"type": "entries",
 					"name": "Spellward Flesh",
 					"entries": [
-						"Your resistance isn't limited to the mind. Skin, muscle, nerves, and organs all participate in rejecting hostile magic. Even successful spells struggle to inflict their full effect.",
 						"Spell Attack Rolls against you have Disadvantage.",
 						"You have Resistance to damage dealt by spells and magical effects.",
 						"Whenever you succeed on a Saving Throw against a spell or magical effect, you take no damage and suffer no other effect from it if you would normally suffer a reduced effect on a successful save."
@@ -1208,7 +1207,6 @@
 					"type": "entries",
 					"name": "Reject the Arcane",
 					"entries": [
-						"Some magic doesn't ask permission. Your body does anyway. Even effects that normally bypass resistance can be forced to contend with you.",
 						"When a spell or magical effect would affect you without requiring an Attack Roll or Saving Throw, you can attempt to reject it.",
 						"Make a Constitution Saving Throw against the effect's save DC. If the effect has no save DC, the DC equals {@b 8 + the source's Proficiency Bonus + the ability modifier used for the effect}.",
 						"On a success, the spell or magical effect has no effect on you.",
@@ -1219,7 +1217,6 @@
 					"type": "entries",
 					"name": "Violent Rejection",
 					"entries": [
-						"Magic that enters your body hasn't necessarily won. Your physiology continues fighting it for as long as the foreign influence remains. What takes hold can still be expelled.",
 						"At the start of each of your turns, if you're affected by a spell or magical effect with a Duration longer than Instantaneous, you can make a Constitution Saving Throw against its save DC.",
 						"On a success, that effect ends on you.",
 						"You can make this Saving Throw even if the effect normally doesn't allow another Saving Throw after taking effect."
@@ -1229,7 +1226,6 @@
 					"type": "entries",
 					"name": "Immutable Warrior",
 					"entries": [
-						"Your body knows what it is. Magic attempting to rewrite that answer meets extraordinary resistance. Once rejected, the same intrusion becomes even harder to impose again.",
 						"You are immune to magical aging.",
 						"You have Advantage on Saving Throws against magical effects that would Charm you, Paralyze you, Petrify you, possess you, transform you against your will, or teleport you against your will.",
 						"Whenever you successfully resist one of these effects, you become immune to that specific named spell, trait, or magical effect until you finish a Long Rest."
@@ -1239,7 +1235,6 @@
 					"type": "entries",
 					"name": "Superior Physique",
 					"entries": [
-						"Warborn were denied the shortcuts magic offered. Their creators compensated with flesh capable of reaching places ordinary bodies could not. Strength was made into infrastructure.",
 						"You count as one Size larger when determining your carrying capacity and the creatures you can Grapple or Shove.",
 						"Your carrying capacity and the weight you can push, drag, or lift are doubled.",
 						"You have Advantage on Strength and Constitution Ability Checks.",
@@ -1250,7 +1245,6 @@
 					"type": "entries",
 					"name": "Warrior's Vitality",
 					"entries": [
-						"Warborn bodies carry more than muscle. Their organs, circulation, connective tissue, and ability to survive trauma were all developed for prolonged conflict. They simply contain more life than most bodies their size.",
 						"Your Hit Point maximum increases by {@b 2 for each character level you have}. Whenever you gain a level, your Hit Point maximum increases by an additional 2."
 					]
 				},
@@ -1258,7 +1252,6 @@
 					"type": "entries",
 					"name": "Combat Reflexes",
 					"entries": [
-						"Thought comes after movement. Your body recognizes the beginning of violence before your conscious mind finishes naming it. By the time others prepare, you have already begun.",
 						"You add your Proficiency Bonus to Initiative rolls.",
 						"You can't be Surprised while you're conscious.",
 						"When you roll Initiative, you can immediately move up to half your Speed. This movement doesn't provoke Opportunity Attacks."
@@ -1268,7 +1261,6 @@
 					"type": "entries",
 					"name": "Martial Adaptation",
 					"entries": [
-						"A weapon becomes familiar to a Warborn with disturbing speed. Grip, stance, balance, and timing adjust around it until the weapon behaves like an extension of the body. Technique is absorbed through repetition.",
 						"When you finish a Long Rest, choose one weapon with which you are proficient.",
 						"Until you finish your next Long Rest, you can use Strength or Dexterity for its Attack and Damage Rolls, you can't be disarmed of it while you're conscious, and your attacks with it score a Critical Hit on a roll of {@b 19 or 20}."
 					]
@@ -1277,7 +1269,6 @@
 					"type": "entries",
 					"name": "Born to Kill",
 					"entries": [
-						"The Warborn body was developed around the assumption that every successful strike should matter. Strength, leverage, precision, and timing converge instinctively at the moment of impact. For a Warborn, a clean hit is never merely a clean hit.",
 						"Whenever you hit with a weapon attack or Unarmed Strike, the attack deals additional damage equal to your Proficiency Bonus."
 					]
 				},
@@ -1285,7 +1276,6 @@
 					"type": "entries",
 					"name": "Relentless Advance",
 					"entries": [
-						"Warborn were created to reach the enemy. Terrain, injury, and resistance were treated as problems to be overcome rather than reasons to stop. Once advancing, they are extraordinarily difficult to halt.",
 						"Difficult Terrain doesn't cost you extra movement.",
 						"Standing from Prone costs you only 5 feet of movement.",
 						"Your Speed can't be reduced below {@b 15 feet} unless you're Incapacitated.",
@@ -1297,7 +1287,6 @@
 					"type": "entries",
 					"name": "Refuse to Die",
 					"entries": [
-						"Stopping the heart was never enough. Neither was pain, blood loss, or catastrophic injury. The Warborn body was taught one final lesson: remain standing.",
 						"When you're reduced to 0 Hit Points but not killed outright, you can drop to 1 Hit Point instead.",
 						"Once you use this trait, you can't use it again until you finish a Long Rest.",
 						"Starting at character level {@b 11}, you can use this trait twice between Long Rests."
@@ -1307,7 +1296,6 @@
 					"type": "entries",
 					"name": "Imitated Perfection",
 					"entries": [
-						"Magic cannot remain within a Warborn. But the body remembers what magic once made possible. Eventually, imitation becomes biology.",
 						"From 1st level, your body can permanently reproduce beneficial effects from spells that have personally affected you.",
 						"You begin with {@b two Imitated Enhancements}. For each starting enhancement, choose an eligible spell that affected you before your adventuring career began.",
 						"There is no restriction based on the spell's level.",
@@ -1429,87 +1417,24 @@
 			"speed": 30,
 			"darkvision": 60,
 			"entries": [
-				"Among every people, there are rare individuals who are simply born different.",
-				"Ascendants are not a people of their own. They can be born among humans, elves, dwarves, dragonborn, and countless others, sharing the appearance, heritage, family, and culture of those they were born among.",
-				"Nothing bestowed this nature upon them. They were not chosen, blessed, cursed, transformed, or created through some extraordinary event.",
-				"They are simply exceptional.",
-				"An Ascendant is born with an extraordinarily complete and stable body. Nothing within them is waiting to be corrected or made whole. Their bodies function exactly as they should from the beginning, yet possess a capacity for growth that others eventually lose.",
-				"For most living beings, maturity marks the beginning of a gradual decline.",
-				"For an Ascendant, it marks the end of aging—and the beginning of everything that might come after.",
+				"Among every people, there are rare individuals who are simply born different. Ascendants are not a people of their own; they can be born among humans, elves, dwarves, dragonborn, and countless others, sharing the appearance, heritage, family, and culture of those they were born among.",
+				"Nothing bestowed this nature upon them. They were not chosen, blessed, cursed, transformed, or created through some extraordinary event. They are simply exceptional.",
+				"An Ascendant is born with an extraordinarily complete and stable body. Their bodies recover with unusual persistence, endure hardship remarkably well, and remain capable of improvement long after others would begin to plateau or decline.",
+				"No two Ascendants necessarily develop in the same direction. One may become extraordinarily strong, another impossibly quick, another almost tireless, while others develop remarkable awareness, intellect, discipline, or presence. They are not born destined to become one particular thing; they are simply born capable of becoming more.",
+				"Ascendants mature according to the general nature of their people, but once they reach full maturity, natural aging ceases. Years continue to pass, yet their bodies remain at their prime. No natural end to an Ascendant's lifespan is known, though they can still be wounded, starve, become sick, be poisoned, or die from other causes.",
+				"Ascendance does not replace ancestry. A human Ascendant is still human, an elven Ascendant is still elven, and a dragonborn Ascendant is still dragonborn. Their appearance, culture, upbringing, language, family, and identity remain their own.",
+				"Ascendance is not ordinarily inherited. The children of Ascendants are normally born as ordinary members of their ancestry, even when both parents are Ascendants. Another Ascendant may eventually appear among their descendants—or none may ever appear at all.",
+				"Ascendant is a lineage rather than a species of its own. Your Ascendant nature doesn't change your ancestry or appearance.",
+				"Your body possesses an extraordinary capacity to survive and recover from injury.",
+				"Your body learns from every injury it survives, gradually turning accumulated hardship into permanent potential.",
+				"Your body continually operates beyond ordinary physical limitations.",
 				{
 					"type": "entries",
-					"name": "Naturally Exceptional",
+					"name": "Ancestral Legacy",
 					"entries": [
-						"There need be no obvious sign that a child is an Ascendant.",
-						"They may be born without strange markings, omens, unusual appearances, or anything else that distinguishes them from another child of their people. Their nature often becomes apparent only as they grow.",
-						"Their bodies recover with unusual persistence. They endure hardship remarkably well. Abilities that should eventually approach their natural limits somehow continue to improve.",
-						"No two Ascendants necessarily develop in the same direction.",
-						"One may become extraordinarily powerful, another impossibly quick, another almost tireless. Others may develop remarkable awareness, intellect, discipline, or presence.",
-						"They are not born destined to become one particular thing.",
-						"They are simply born capable of becoming more."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Ageless Prime",
-					"entries": [
-						"Ascendants grow from infancy into adulthood according to the general nature of their people.",
-						"Once an Ascendant reaches full maturity, however, their natural aging ceases.",
-						"Years continue to pass, but their body remains at its prime. It does not gradually weaken, wither, or deteriorate simply because of time.",
-						"An Ascendant who has lived for centuries may remain physically indistinguishable from how they appeared shortly after reaching adulthood.",
-						"No natural end to an Ascendant's lifespan is known.",
-						"They can still be wounded, starve, become sick, be poisoned, or die from countless other causes.",
-						"They simply do not die from old age."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Growth Without Decline",
-					"entries": [
-						"Longevity is not the most extraordinary quality of an Ascendant.",
-						"Their ability to continue developing is.",
-						"Most living bodies eventually encounter boundaries that become increasingly difficult—or impossible—to surpass. Ascendants possess no known final boundary of this kind.",
-						"Their bodies remember hardship.",
-						"An injury may heal without leaving so much as a scar, but the experience is not entirely lost. Every blow endured provides another minute lesson from which their body can eventually refine itself.",
-						"A single injury means little.",
-						"Hundreds may begin to matter.",
-						"Thousands accumulated across a long life can produce someone vastly beyond the person they once were.",
-						"Even then, nothing guarantees that they have reached their limit."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Children of Ascendants",
-					"entries": [
-						"Ascendants can have children normally according to the biology of their people.",
-						"Ascendance itself, however, is not ordinarily inherited.",
-						"The child of an Ascendant is normally born no different from any other member of their ancestry. They grow, mature, and age normally.",
-						"This remains true even when both parents are Ascendants.",
-						"An Ascendant can therefore have children, grandchildren, and generations of descendants who live completely ordinary lives while the Ascendant remains unchanged by time.",
-						"Another Ascendant may eventually appear among those descendants.",
-						"Or none may ever appear again.",
-						"There is no known way to deliberately produce one."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "One of Their People",
-					"entries": [
-						"Ascendance does not replace a person's ancestry.",
-						"A human Ascendant is still human. An elven Ascendant is still elven. A dragonborn Ascendant is still dragonborn.",
-						"Their appearance, culture, upbringing, language, family, and sense of identity remain their own.",
-						"Different peoples may have old stories about individuals who never grew old, warriors who continued becoming stronger throughout centuries, or ancestors who survived long enough to meet generations that should never have known them.",
-						"Some cultures may give such individuals special names.",
-						"Others may not distinguish them at all.",
-						"An Ascendant is not something separate from their people.",
-						"They are simply one of them who was born capable of going farther."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Lineage",
-					"entries": [
-						"Ascendant is a lineage rather than a species of its own. Your Ascendant nature doesn't change your ancestry or appearance."
+						"Your Ascendant nature doesn't erase the traits of the people you were born among.",
+						"If you replace a species with this lineage, you can retain any Skill Proficiencies you gained from that species and any Climb Speed, Fly Speed, or Swim Speed it granted you.",
+						"If you don't retain any of those traits, or if you choose this lineage when you create your character, you gain proficiency in two skills of your choice."
 					]
 				},
 				{
@@ -1523,31 +1448,22 @@
 					"type": "entries",
 					"name": "Survivor's Resilience",
 					"entries": [
-						"Your body possesses an extraordinary capacity to survive and recover from injury.",
 						"If you have at least 1 Hit Point, you regain a number of Hit Points equal to your Proficiency Bonus every 1 minute.",
 						"While you are in combat, this recovery accelerates. At the start of each of your turns, if you have at least 1 Hit Point, you instead regain Hit Points equal to twice your Proficiency Bonus."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Evolution Points",
+					"name": "Potential Points",
 					"entries": [
-						"Your body learns from every injury it survives, gradually turning the accumulated experience of battle into permanent growth.",
-						"Whenever you take damage from a hostile creature while in combat, you gain 1 Evolution Point.",
-						"You gain an Evolution Point each time you take damage. There is no limit to the number of Evolution Points you can gain during a turn or a combat.",
-						"You retain your Evolution Points until you spend them, and there is no maximum number of Evolution Points you can possess."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Surpassing Limits",
-					"entries": [
-						"You can expend Evolution Points to permanently improve your natural abilities.",
-						"Increasing an Ability Score by 1 costs a number of Evolution Points equal to 10 times the new Ability Score.",
-						"For example, increasing an Ability Score from 19 to 20 costs 200 Evolution Points, increasing one from 24 to 25 costs 250 Evolution Points, and increasing one from 30 to 31 costs 310 Evolution Points.",
+						"Whenever you take damage from a hostile creature while in combat, you gain 1 Potential Point.",
+						"You gain a Potential Point each time you take damage. There is no limit to the number of Potential Points you can gain during a turn or a combat.",
+						"You retain your Potential Points until you spend them, and there is no maximum number of Potential Points you can possess.",
+						"You can expend Potential Points to permanently improve your natural abilities. Increasing an Ability Score by 1 costs a number of Potential Points equal to 10 times the new Ability Score.",
+						"For example, increasing an Ability Score from 19 to 20 costs 200 Potential Points, increasing one from 24 to 25 costs 250 Potential Points, and increasing one from 30 to 31 costs 310 Potential Points.",
 						"You can increase your Strength, Dexterity, Constitution, Intelligence, Wisdom, or Charisma using this trait.",
 						"Ability Scores increased through this trait have no maximum imposed by this trait.",
-						"Once Evolution Points are spent, they can't normally be recovered or reassigned."
+						"Once Potential Points are spent, they can't normally be recovered or reassigned."
 					]
 				},
 				{
@@ -1563,7 +1479,6 @@
 					"type": "entries",
 					"name": "Superior Physiology",
 					"entries": [
-						"Your body continually operates beyond ordinary physical limitations.",
 						"Increase one Ability Score of your choice by 2.",
 						"Your Speed increases by 5 feet.",
 						"Your Hit Point Maximum increases by 1 for each character level you have. Whenever you gain a level, your Hit Point Maximum increases by an additional 1.",
@@ -5611,7 +5526,7 @@
 				"force"
 			],
 			"savingThrow": [
-				"strength"
+				"str"
 			]
 		},
 		{
@@ -8461,7 +8376,7 @@
 				]
 			},
 			"savingThrow": [
-				"charisma"
+				"cha"
 			],
 			"areaTags": [
 				"E"
@@ -8691,7 +8606,7 @@
 				]
 			},
 			"savingThrow": [
-				"charisma"
+				"cha"
 			],
 			"damageInflict": [
 				"force",
@@ -8794,7 +8709,7 @@
 				]
 			},
 			"savingThrow": [
-				"charisma"
+				"cha"
 			]
 		},
 		{
@@ -10726,8 +10641,8 @@
 				"force"
 			],
 			"savingThrow": [
-				"dexterity",
-				"strength"
+				"dex",
+				"str"
 			],
 			"classes": {
 				"fromClassList": [
@@ -10954,7 +10869,7 @@
 				"force"
 			],
 			"savingThrow": [
-				"strength"
+				"str"
 			],
 			"areaTags": [
 				"S"
@@ -12926,6 +12841,203 @@
 			]
 		},
 		{
+			"name": "Hold the Door",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 5,
+					"pact": "Pact of the Gate"
+				}
+			],
+			"entries": [
+				"Your gateways no longer flicker shut the moment their immediate purpose is fulfilled.",
+				"Once you open a path, you can hold it against the natural shape of space.",
+				"Those who travel through it do so because you have chosen to leave the door open.",
+				{
+					"type": "entries",
+					"name": "Held Threshold",
+					"entries": [
+						"When you use Open the Way, you can choose to hold your gateways open. If you do, they last for 1 minute instead of until the start of your next turn.",
+						"The gateways end early if you dismiss them (no action required), you create a new set of gateways with Open the Way, or you become Incapacitated.",
+						"While the gateways remain open, you retain all benefits of Reach Through and Moving Gate."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Keeper of Passage",
+					"entries": [
+						"Whenever a creature you can see attempts to pass through one of your gateways, you can choose whether that gateway carries it to another gateway.",
+						"If you refuse passage, the creature doesn't pass through the gateway and its movement into the gateway's space is halted immediately before the opening. This requires no action from you.",
+						"You can make this choice separately for each creature each time it attempts to enter a gateway."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Open for the Chosen",
+					"entries": [
+						"When you create your gateways, you can designate any number of creatures you can see.",
+						"A designated creature can pass through your gateways even while Incapacitated, Grappled, or being carried, provided some part of it or the creature or object carrying it enters the gateway.",
+						"In addition, a willing designated creature can move through one of your gateways once on each of its turns without provoking Opportunity Attacks from that movement."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "The Door Makes Room",
+					"entries": [
+						"Your held gateways can momentarily expand to accommodate those you permit to pass.",
+						"When you or a willing creature, or an unattended object, would enter one of your held gateways but is too large to fit through its normal opening, you can cause every gateway involved in that passage to expand just enough for it to pass.",
+						"This can accommodate a creature or object of up to Huge size.",
+						"The gateways return to their normal dimensions immediately after the passage is complete.",
+						"A creature or object can't emerge into a space that is too small to physically contain it; if there is no suitable space at the exit, it can't pass through that gateway."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Level 11 — Door That Refuses to Close",
+					"entries": [
+						"Your held gateways can last for 10 minutes.",
+						"Becoming Incapacitated no longer immediately ends them. Instead, they remain until the end of your next turn, giving you a chance to recover before they collapse."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Level 17 — Permanent Invitation",
+					"entries": [
+						"Your held gateways no longer have a maximum duration. They remain until you dismiss them, create another set of gateways, die, or are on a different plane from every gateway.",
+						"In addition, creatures you designated with Open for the Chosen can always identify which gateway they will emerge from before entering one."
+					]
+				}
+			]
+		},
+		{
+			"name": "There Is Always Another Door",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 5,
+					"pact": "Pact of the Gate"
+				}
+			],
+			"entries": [
+				"A wall is only a door that has not been opened yet.",
+				"Distance matters less when you already know where the other side must be.",
+				"Where others see a sealed path, you see another threshold waiting to exist.",
+				"When you use Open the Way, you can place one of your gateways against a solid surface, such as a wall, door, floor, ceiling, or similar barrier.",
+				"The linked gateway can appear in an unoccupied space on the opposite side of that surface even if you can't see that space, provided the destination is within the normal range of Open the Way and you know or can reasonably determine where that space is.",
+				"If no suitable unoccupied space exists at the destination, the gateway doesn't form, and you don't expend the Bonus Action used to create it.",
+				{
+					"type": "entries",
+					"name": "Level 5 — Find the Other Side",
+					"entries": [
+						"When you place a gateway against a solid surface with There Is Always Another Door, you can sense whether a suitable unoccupied space exists on the opposite side within the range of Open the Way.",
+						"You learn the direction and approximate distance to the nearest space large enough for the gateway to form, but you learn nothing else about that space or anything within it.",
+						"You can choose that space as the destination even if you can't see it."
+					]
+				}
+			]
+		},
+		{
+			"name": "Step Between Heartbeats",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 7,
+					"pact": "Pact of the Gate"
+				}
+			],
+			"entries": [
+				"There is a moment between intent and impact when a path still exists.",
+				"You have learned to find that path before the blow can finish falling.",
+				"To everyone else, you simply vanish from the place where you were about to be struck.",
+				{
+					"type": "entries",
+					"name": "Instant Passage",
+					"entries": [
+						"When a creature you can see targets you with an attack, you can use your Reaction to create your gateways immediately before the attack roll is made.",
+						"One gateway must appear in an unoccupied space within 5 feet of you, and the other in an unoccupied space you can see within the normal range of Open the Way.",
+						"You can immediately move through the adjacent gateway and emerge from the linked gateway without expending movement and without provoking Opportunity Attacks.",
+						"If this movement places you outside the attack's reach or range, or causes the attacker to lose line of sight or line of effect to you, the attack automatically misses.",
+						"You can use this feature a number of times equal to your Proficiency Bonus, regaining all expended uses when you finish a Long Rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Level 11 — Take Them With You",
+					"entries": [
+						"When you use Step Between Heartbeats, you can bring one willing creature within 5 feet of you through the gateway with you.",
+						"The creature appears in an unoccupied space within 5 feet of your exit and doesn't provoke Opportunity Attacks from this movement."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Level 17 — Before the World Can React",
+					"entries": [
+						"When you use Step Between Heartbeats, you can create the gateways and move through them even if you are Grappled or Restrained.",
+						"In addition, after you emerge, you can immediately make one weapon attack, cast one cantrip with a casting time of an Action, or use one feature that normally requires an Action."
+					]
+				}
+			]
+		},
+		{
+			"name": "The World Is Full of Entrances",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 15,
+					"pact": "Pact of the Gate"
+				}
+			],
+			"entries": [
+				"Distance has ceased to be an obstacle.",
+				"Every place you have stood has become another possible doorway.",
+				"The world is vast only to those who must travel across it.",
+				{
+					"type": "entries",
+					"name": "Familiar Destination",
+					"entries": [
+						"When you use Open the Way, one of your gateways can appear at any location on the same plane that you have personally visited, regardless of distance and without requiring you to see the destination.",
+						"You must be able to identify the destination from memory, such as a particular room, street, rooftop, chamber, clearing, or other distinct place.",
+						"The gateway forms in the nearest suitable unoccupied space to the location you remember.",
+						"If no suitable space exists, the gateway fails to form, and you don't expend the Bonus Action used to create it.",
+						"You immediately know whether the gateway successfully formed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Distant Threshold",
+					"entries": [
+						"A gateway created with Familiar Destination functions exactly like any other gateway created by Open the Way.",
+						"You can see and hear through it, move through it, make attacks through it, cast spells through it, and allow other creatures or objects to pass through it normally.",
+						"Distance between the gateways doesn't alter these functions."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Level 17 — Every Plane Has a Door",
+					"entries": [
+						"When you use Open the Way, one of your gateways can appear at a location on another plane of existence.",
+						"If you have personally visited the destination, the gateway can open there regardless of planar distance.",
+						"If you haven't personally visited it, you must be able to clearly identify the destination through a reliable description, map, magical observation, or similar source.",
+						"The gateway forms in the nearest suitable unoccupied space to the intended destination. If no suitable space exists, it fails to form, and you don't expend the Bonus Action used to create it.",
+						"A gateway created this way functions normally for passage, sight, attacks, spells, creatures, and objects.",
+						"Planar boundaries, planar distance, and effects that merely prevent teleportation or planar travel don't stop a gateway created by this feature."
+					]
+				}
+			]
+		},
+		{
 			"name": "Fractured Counterpart",
 			"source": "FftForbiddenTome",
 			"featureType": [
@@ -13243,6 +13355,106 @@
 			]
 		},
 		{
+			"name": "Discipline Without Boundaries",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 5,
+					"pact": "Pact of the Martial Discipline"
+				}
+			],
+			"entries": [
+				"Weapons are tools.",
+				"Stances are habits.",
+				"A discipline mastered deeply enough no longer depends on either.",
+				{
+					"type": "entries",
+					"name": "Universal Application",
+					"entries": [
+						"When a Fighting Style gained from Pact of the Martial Discipline requires you to wield a particular type of weapon, use a particular weapon property, fight with a specific number of weapons, have a free hand, or wear a particular category of armor, you can ignore one such equipment requirement.",
+						"The Fighting Style must still be capable of producing a meaningful effect.",
+						"For example, a Fighting Style intended for ranged weapons could function with a thrown weapon, one intended for two-handed weapons could function with a one-handed weapon, or one requiring an empty hand could remain functional while that hand is occupied.",
+						"This feature doesn't change the weapon's own properties, damage die, range, or other statistics."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Level 11 — Technique Over Tool",
+					"entries": [
+						"You can ignore all equipment requirements of Fighting Styles gained from this Pact.",
+						"Whenever one of those Fighting Styles refers to a specific weapon category or property, you can apply its benefit to any weapon attack or Unarmed Strike for which the effect can meaningfully function.",
+						"A Fighting Style still can't create an impossible effect; for example, a benefit that modifies ammunition doesn't create ammunition for a weapon that doesn't use it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Level 17 — Discipline Defines the Weapon",
+					"entries": [
+						"Once on each of your turns when you make an attack with a weapon or an Unarmed Strike, you can treat that attack as possessing any weapon property or equipment qualification required by one of your Fighting Styles gained from this Pact, solely for determining whether that Fighting Style applies.",
+						"This doesn't actually grant the property to the weapon and doesn't alter the attack for any other rule."
+					]
+				}
+			]
+		},
+		{
+			"name": "Unrestricted Discipline",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 7,
+					"pact": "Pact of the Martial Discipline"
+				}
+			],
+			"entries": [
+				"Rules exist to teach a technique safely.",
+				"Mastery begins when you understand which parts of those rules were never essential.",
+				"Your disciplines no longer demand perfect circumstances before they answer you.",
+				{
+					"type": "entries",
+					"name": "Loosen the Form",
+					"entries": [
+						"Whenever a Fighting Style gained from Pact of the Martial Discipline has a restriction on how its benefit can be used, you can relax one of the following restrictions each time that Fighting Style applies:",
+						{
+							"type": "list",
+							"items": [
+								"A required minimum distance moved is reduced by 10 feet, to a minimum of 0 feet.",
+								"A required distance from a creature is reduced by 5 feet, to a minimum of 0 feet.",
+								"A range or reach limitation imposed specifically by the Fighting Style increases by 10 feet.",
+								"A requirement that you haven't moved, have moved, or remain in a particular position can be ignored.",
+								"A requirement concerning whether the target is adjacent to, within reach of, or farther away from another creature can be ignored.",
+								"A Fighting Style that requires a particular direction of movement, such as moving toward or away from a creature, can function with movement in any direction."
+							]
+						},
+						"You can relax only one restriction of a Fighting Style at a time.",
+						"This feature doesn't remove resource costs, action costs, requirements to hit or miss, or limitations on how often a Fighting Style can be used."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Level 11 — Flexible Execution",
+					"entries": [
+						"You can relax up to two restrictions simultaneously whenever a Fighting Style gained from this Pact applies.",
+						"In addition, if a Fighting Style requires a specific type of combat event to trigger, such as making an Opportunity Attack, entering a creature's reach, leaving a creature's reach, or taking a particular combat action, you can treat a closely equivalent combat event as satisfying that trigger.",
+						"For example, a feature that triggers when a creature enters your reach could also trigger when you move into that creature's reach."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Level 17 — Technique Without Constraint",
+					"entries": [
+						"Whenever a Fighting Style gained from Pact of the Martial Discipline applies, you can ignore any positional, movement, distance, facing, adjacency, or target-placement restriction imposed by that Fighting Style.",
+						"You must still satisfy its core trigger, expend any required resource, and obey any limit on how often it can be used."
+					]
+				}
+			]
+		},
+		{
 			"name": "Pact of Hunger for Power",
 			"source": "FftForbiddenTome",
 			"featureType": [
@@ -13252,6 +13464,16 @@
 				"Power is never enough. Every victory reveals another height you have yet to reach, and every height conquered only reveals another beyond it.",
 				"Your hunger isn't for flesh, wealth, or knowledge. You crave the strength possessed by those powerful enough to stand in your way. By overcoming worthy opponents, you can seize fragments of that strength and permanently reshape yourself with them.",
 				"You gain the following benefits.",
+				"Power first changes the vessel that contains it. The first thing your hunger devours is weakness itself, and your body begins discarding needs that once dictated whether you lived or died.",
+				"Power begins to flow through your body with greater efficiency. Movements that once required effort become instinctive, fluid, and unnaturally precise.",
+				"The power within you is no longer dormant. It begins to follow every attack you make, adding a fraction of your accumulated strength to every blow.",
+				"Your body has endured enough force to understand how to resist it. Moving you against your will becomes increasingly difficult, and every layer of power makes your body harder to break.",
+				"The limitations you were born with cease to be absolute. Strength, speed, endurance, intellect, instinct, and presence become qualities that can simply be pushed further.",
+				"Your power begins reinforcing more than flesh. Fear loses its grip, influence struggles to take root, and your mind becomes increasingly difficult to bend against your will.",
+				"Your body no longer adapts only to mundane hardship. Poison, flame, steel, supernatural energy, and even hostile magic become forces your growing existence learns to endure.",
+				"Gravity and physical restraint begin to lose their authority over you. Your own power becomes sufficient to support your body where the world no longer does.",
+				"You have grown tired of being told that something can't be harmed. Resistance is merely another obstacle, immunity merely a greater one, and obstacles exist to be surpassed.",
+				"Survival is no longer a struggle your body must consciously endure. It has become the natural state to which your existence constantly returns.",
 				{
 					"type": "entries",
 					"name": "Sense Power",
@@ -13288,7 +13510,6 @@
 					"type": "entries",
 					"name": "Level 1 — Fortify",
 					"entries": [
-						"Power first changes the vessel that contains it. The first thing your hunger devours is weakness itself, and your body begins discarding needs that once dictated whether you lived or died.",
 						"You no longer need to eat, drink, or breathe. You can still eat, drink, and breathe normally if you choose to.",
 						"You have Advantage on saving throws against Exhaustion.",
 						{
@@ -13316,7 +13537,6 @@
 					"type": "entries",
 					"name": "Level 3 — Refine",
 					"entries": [
-						"Power begins to flow through your body with greater efficiency. Movements that once required effort become instinctive, fluid, and unnaturally precise.",
 						"Your Speed increases by 5 feet.",
 						"Your jump distance is doubled.",
 						"Standing up from Prone costs you only 5 feet of movement.",
@@ -13344,7 +13564,6 @@
 					"type": "entries",
 					"name": "Level 5 — Empower",
 					"entries": [
-						"The power within you is no longer dormant. It begins to follow every attack you make, adding a fraction of your accumulated strength to every blow.",
 						"Your Speed increases by an additional 5 feet, for a total increase of 10 feet from this feat.",
 						"You gain a bonus to Initiative equal to half your Proficiency Bonus, rounded up.",
 						{
@@ -13379,7 +13598,6 @@
 					"type": "entries",
 					"name": "Level 7 — Harden",
 					"entries": [
-						"Your body has endured enough force to understand how to resist it. Moving you against your will becomes increasingly difficult, and every layer of power makes your body harder to break.",
 						"You count as one Size larger when determining your carrying capacity and the weight you can push, drag, or lift.",
 						"You have Advantage on ability checks and saving throws made to resist being Grappled, Restrained, knocked Prone, pushed, or otherwise forcibly moved.",
 						{
@@ -13406,7 +13624,6 @@
 					"type": "entries",
 					"name": "Level 9 — Transcend",
 					"entries": [
-						"The limitations you were born with cease to be absolute. Strength, speed, endurance, intellect, instinct, and presence become qualities that can simply be pushed further.",
 						"When you make an ability check using a skill or tool in which you have proficiency, a d20 roll of 4 or lower is treated as a 5.",
 						"Aging no longer causes your physical capabilities to deteriorate.",
 						{
@@ -13435,7 +13652,6 @@
 					"type": "entries",
 					"name": "Level 11 — Unyielding",
 					"entries": [
-						"Your power begins reinforcing more than flesh. Fear loses its grip, influence struggles to take root, and your mind becomes increasingly difficult to bend against your will.",
 						"You have Advantage on saving throws against being Charmed or Frightened.",
 						"Whenever you fail a saving throw against either of those conditions, you can repeat that saving throw at the end of your next turn, even if the effect wouldn't normally allow another saving throw at that time.",
 						{
@@ -13463,7 +13679,6 @@
 					"type": "entries",
 					"name": "Level 13 — Adapt",
 					"entries": [
-						"Your body no longer adapts only to mundane hardship. Poison, flame, steel, supernatural energy, and even hostile magic become forces your growing existence learns to endure.",
 						"You have Advantage on Death Saving Throws.",
 						"You also have Advantage on saving throws against spells and magical effects.",
 						{
@@ -13492,7 +13707,6 @@
 					"type": "entries",
 					"name": "Level 15 — Unshackle",
 					"entries": [
-						"Gravity and physical restraint begin to lose their authority over you. Your own power becomes sufficient to support your body where the world no longer does.",
 						"You can Hover.",
 						"While conscious, you can remain suspended in the air up to 10 feet above a surface capable of supporting you.",
 						"While hovering this way, you can move horizontally using your normal Speed and can ascend or descend within this 10-foot limit.",
@@ -13523,7 +13737,6 @@
 					"type": "entries",
 					"name": "Level 17 — Break Resistance",
 					"entries": [
-						"You have grown tired of being told that something can't be harmed. Resistance is merely another obstacle, immunity merely a greater one, and obstacles exist to be surpassed.",
 						"Your Hover develops into true flight.",
 						"You gain a Flying Speed equal to your Walking Speed, and you can Hover.",
 						"You ignore Difficult Terrain.",
@@ -13561,7 +13774,6 @@
 					"type": "entries",
 					"name": "Level 19 — Absolute Adaptation",
 					"entries": [
-						"Survival is no longer a struggle your body must consciously endure. It has become the natural state to which your existence constantly returns.",
 						"Whenever you finish a Short or Long Rest, you remove one level of Exhaustion.",
 						"You no longer suffer penalties caused solely by extreme heat, extreme cold, high altitude, atmospheric pressure, underwater pressure, or similar environmental conditions.",
 						"This doesn't prevent damage or other specific effects that such an environment directly causes.",
@@ -13596,6 +13808,51 @@
 						"They could spend 15 Power Points to gain Fire Resistance through Adapt and retain 6 Power Points; or spend 10 Power Points to increase Strength by 1 through Transcend and 6 Power Points to increase Power Damage by 1 through Empower, retaining 5 Power Points.",
 						"They can instead spend nothing and save all 21 Power Points for a more expensive improvement.",
 						"There is no maximum to the amount of Power Points you can accumulate, and Hunger for Power has no fixed endpoint. As long as you can continue overcoming sufficiently powerful opponents, you can continue using their power to surpass your previous limits."
+					]
+				}
+			]
+		},
+		{
+			"name": "The Strong Feed the Strong",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 5,
+					"pact": "Pact of Hunger for Power"
+				}
+			],
+			"entries": [
+				"Power recognizes power.",
+				"The greater the thing you overcome, the more of it remains for you to claim.",
+				"You have learned not to let any of that strength go to waste.",
+				"Your hunger no longer quiets after feeding once.",
+				"Power only makes you capable of consuming more.",
+				{
+					"type": "entries",
+					"name": "Greater Prey",
+					"entries": [
+						"When Claim Power grants you Power Points from a creature whose Challenge Rating or character level is greater than your character level, you gain additional Power Points equal to the difference.",
+						"For example, if you are level 10 and claim power from a CR 14 creature, you gain 18 Power Points instead of 14."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Level 11 — Nothing Wasted",
+					"entries": [
+						"When you would gain Power Points through Claim Power, you can choose to gain at least an amount equal to your character level, even if the defeated creature's Challenge Rating is lower.",
+						"The creature must still meet every normal requirement of Claim Power, including the minimum Challenge Rating requirement."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Level 17 — Bottomless Hunger",
+					"entries": [
+						"The restriction in Claim Power that prevents you from gaining Power Points again until you finish a Short or Long Rest no longer applies.",
+						"You can gain Power Points from every qualifying hostile creature you participate in defeating.",
+						"All other restrictions of Claim Power still apply, including that the same individual creature can grant you Power Points only once and that creatures created, summoned, controlled, or deliberately provided by you or your allies can't grant Power Points."
 					]
 				}
 			]
@@ -13679,6 +13936,118 @@
 			]
 		},
 		{
+			"name": "I Saw That",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 5,
+					"pact": "Pact of the Stolen Gift"
+				}
+			],
+			"entries": [
+				"You do not need to understand a Gift before you take it.",
+				"Observation is enough.",
+				"One moment of exposure is all the invitation you require.",
+				{
+					"type": "entries",
+					"name": "Instant Claim",
+					"entries": [
+						"When a creature you can see within 60 feet uses an ability that you can record as a Gift, you can immediately activate that Gift as part of the same moment, expending 1 Claim Slot but requiring no Bonus Action.",
+						"The Gift becomes active after the triggering ability finishes resolving.",
+						"You must still be able to record that ability normally through Claim a Gift."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Level 11 — Steal the Timing",
+					"entries": [
+						"When you activate a Gift with Instant Claim, you can use that Gift immediately if it normally requires an Action, Bonus Action, or Reaction.",
+						"Doing so requires no additional action.",
+						"If the Gift is a spell, you can cast the stolen spell immediately as part of this use."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Level 17 — Better the Original",
+					"entries": [
+						"The first time you use a Gift activated through Instant Claim, choose one of the following benefits that can apply to that use:",
+						{
+							"type": "list",
+							"items": [
+								"Gain Advantage on one Attack Roll made with the Gift.",
+								"Impose Disadvantage on one Saving Throw caused by the Gift.",
+								"Maximize one damage or healing die of the Gift.",
+								"Increase the Gift's range by 60 feet.",
+								"Double one movement speed granted by the Gift until the end of the turn."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Composite Theft",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 7,
+					"pact": "Pact of the Stolen Gift"
+				}
+			],
+			"entries": [
+				"A stolen Gift does not need to remain whole.",
+				"You have learned to separate function from form, keeping only the parts worth taking.",
+				"What others possess as one ability, you can rebuild into something better suited to you.",
+				{
+					"type": "entries",
+					"name": "Borrowed Pieces",
+					"entries": [
+						"When you activate a Gift, you can choose one distinct component of another Gift you have recorded and graft that component onto the active Gift for its duration.",
+						"The borrowed component must be something that can function independently, such as:",
+						{
+							"type": "list",
+							"items": [
+								"a movement mode",
+								"a sense",
+								"a Damage Resistance",
+								"a natural weapon damage type",
+								"a range increase",
+								"a secondary movement rider",
+								"a passive defensive trait",
+								"a non-resource passive effect"
+							]
+						},
+						"You don't gain the entire second Gift, only the chosen component.",
+						"Using Borrowed Pieces doesn't expend an additional Claim Slot."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Level 11 — Two Things Worth Taking",
+					"entries": [
+						"You can graft up to two components from recorded Gifts onto a single active Gift.",
+						"The two components can come from the same Gift or from different Gifts."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Level 17 — Perfect Reconstruction",
+					"entries": [
+						"When you activate a Gift, you can rebuild it from pieces of your recorded collection.",
+						"Instead of activating one recorded Gift exactly as copied, choose up to three compatible components from Gifts you have recorded and combine them into one reconstructed Gift for 1 hour.",
+						"The reconstructed Gift still counts as one active Gift and costs only one Claim Slot.",
+						"A reconstructed Gift can't reproduce an ability prohibited by Things That Cannot Be Taken, and the DM determines whether chosen components are mechanically compatible."
+					]
+				}
+			]
+		},
+		{
 			"name": "Pact of the Unwritten Rule",
 			"source": "FftForbiddenTome",
 			"featureType": [
@@ -13741,6 +14110,158 @@
 						"At Warlock level 11, you can have two recorded restrictions ignored simultaneously.",
 						"At Warlock level 17, you can have three.",
 						"Activating each restriction requires its own Bonus Action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Once Is Enough",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 5,
+					"pact": "Pact of the Unwritten Rule"
+				}
+			],
+			"entries": [
+				"You no longer need to be the one who suffers first.",
+				"A rule only has to prove that it exists once.",
+				"After that, you already know where it breaks.",
+				{
+					"type": "entries",
+					"name": "Witnessed Restriction",
+					"entries": [
+						"When a rule, condition, environmental restriction, magical effect, or defensive property directly prevents, limits, or reduces something attempted by a creature you can see within 60 feet, you can record that restriction as though it had affected you personally.",
+						"You must be able to perceive what actually prevented or limited the creature. Merely knowing that a restriction exists isn't enough.",
+						"This counts as satisfying It Must Stop You First for that restriction."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Level 11 — Shared Exception",
+					"entries": [
+						"When you use Break the Rule, you can choose one willing creature you can see within 30 feet.",
+						"For as long as you ignore the chosen restriction, that creature ignores the same restriction whenever it would apply to it.",
+						"You can change the chosen creature as a Bonus Action without ending Break the Rule."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Level 17 — Precedent",
+					"entries": [
+						"Once you have recorded a restriction, you can activate Break the Rule for that restriction at the moment it would affect you, requiring no action.",
+						"You can do this even if the restriction itself would prevent you from taking Actions, Bonus Actions, or Reactions."
+					]
+				}
+			]
+		},
+		{
+			"name": "The Rule Bends Both Ways",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 7,
+					"pact": "Pact of the Unwritten Rule"
+				}
+			],
+			"entries": [
+				"A limitation defines more than what cannot be done.",
+				"It also reveals exactly where reality expects resistance.",
+				"Once you understand that pressure, you can push in the opposite direction.",
+				{
+					"type": "entries",
+					"name": "Invert the Restriction",
+					"entries": [
+						"While you are ignoring a recorded restriction with Break the Rule, once on each of your turns when that restriction would normally hinder, reduce, or prevent something you do, you can instead gain a benefit based on the nature of that restriction.",
+						"The benefit must directly oppose the restriction and lasts only for that instance.",
+						{
+							"type": "list",
+							"items": [
+								"A restriction that would reduce your Speed can instead increase your Speed by the same amount.",
+								"Difficult Terrain that would cost additional movement can instead cost you no movement for the affected space.",
+								"An effect that would impose Disadvantage on one of your rolls can instead grant Advantage on that roll.",
+								"An effect that would reduce damage you deal can instead cause that damage to ignore the reduction and deal additional damage equal to your Charisma modifier.",
+								"An effect that would prevent you from taking a Reaction can instead allow you to take one additional Reaction before the start of your next turn.",
+								"An effect that would prevent you from regaining Hit Points can instead cause the next healing you receive before the start of your next turn to restore additional Hit Points equal to your Warlock level."
+							]
+						},
+						"The benefit must be a direct inversion of the specific restriction you recorded. It doesn't grant unrelated abilities."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Level 11 — Turn the Pressure",
+					"entries": [
+						"When Invert the Restriction grants you Advantage, additional movement, additional damage, additional healing, or an additional Reaction, you can grant that same benefit to one willing creature you can see within 30 feet instead of yourself."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Level 17 — Reality Overcorrects",
+					"entries": [
+						"The first time on each of your turns that you use Invert the Restriction, you can apply the inverted benefit at double its normal numerical value, if it has one.",
+						"For example, a 10-foot Speed reduction could become a 20-foot Speed increase, and additional damage equal to your Charisma modifier would become twice your Charisma modifier."
+					]
+				}
+			]
+		},
+		{
+			"name": "Your Rule, Not Mine",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 9,
+					"pact": "Pact of the Unwritten Rule"
+				}
+			],
+			"entries": [
+				"A restriction does not vanish simply because you refuse to obey it.",
+				"The rule still exists.",
+				"You have merely decided who it applies to instead.",
+				{
+					"type": "entries",
+					"name": "Return the Restriction",
+					"entries": [
+						"While you are ignoring a recorded restriction with Break the Rule, when a creature you can see causes that same restriction to apply to you, you can use your Reaction to force that creature to suffer an equivalent restriction until the start of your next turn.",
+						"The reflected restriction must be one that can meaningfully apply to that creature.",
+						{
+							"type": "list",
+							"items": [
+								"If it prevents you from taking Reactions, that creature can't take Reactions.",
+								"If it reduces your Speed, its Speed is reduced by the same amount.",
+								"If it imposes Disadvantage on your attacks, its attacks have Disadvantage.",
+								"If it prevents you from regaining Hit Points, that creature can't regain Hit Points.",
+								"If its Resistance reduces damage you deal, it loses that Resistance against your damage for the duration.",
+								"If it prevents you from casting spells, it can't cast spells for the duration."
+							]
+						},
+						"You don't transfer the original effect itself. You impose only the specific recorded restriction you are currently ignoring."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Level 13 — Same Rule for Everyone",
+					"entries": [
+						"When you use Return the Restriction, you can affect up to a number of creatures equal to your Charisma modifier, provided each creature is contributing to or benefiting from the same recorded restriction and is within 30 feet of the original creature.",
+						"Each affected creature suffers the reflected restriction until the start of your next turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Level 17 — The Exception Becomes the Rule",
+					"entries": [
+						"When you use Return the Restriction, the reflected restriction lasts for 1 minute instead.",
+						"An affected creature can repeat the saving throw, if any saving throw was originally associated with the restriction, at the end of each of its turns, ending the reflected restriction on itself on a success.",
+						"If the original restriction had no saving throw, the reflected restriction lasts for the full duration unless ended by an effect that could normally remove an equivalent condition or limitation."
 					]
 				}
 			]
@@ -14142,6 +14663,21 @@
 				"The Crown doesn't require thought, language, life, or even a soul before it can demand obedience.",
 				"Steel, stone, earth, machines, relics, and monuments all possess forms capable of serving a purpose.",
 				"Where no will exists to answer your command, your authority becomes the will that moves the world.",
+				"Possession is merely another claim made beneath the Crown.",
+				"The weapon can hear you even while another hand grips its hilt.",
+				"When owner and Crown give conflicting orders, the object itself is forced to choose.",
+				"An object doesn't forget what it can do simply because its proper wielder is absent.",
+				"Bloodline, training, ritual, and attunement are permissions created for lesser hands.",
+				"The Crown asks only whether the power exists—and if it does, commands it to answer.",
+				"Attunement, curses, creators, and ancient bonds may all claim an object.",
+				"Such claims remain meaningful only until they contradict the Crown.",
+				"When two masters command the same thing, lesser authority is made to yield.",
+				"At last, the difference between an arsenal, a fortress, and a city becomes irrelevant.",
+				"Every silent thing within your domain is another body awaiting a command.",
+				"One declaration from the Crown can set an entire landscape into motion.",
+				"Sometimes countless servants are less useful than a single hand large enough to move a kingdom.",
+				"Weapons, machines, ruins, earth, stone, and every silent material nearby are summoned toward a single point.",
+				"What arrives as countless separate things rises again as one colossal body bearing the Crown.",
 				{
 					"type": "entries",
 					"name": "Authority Without a Mind",
@@ -14380,9 +14916,6 @@
 					"type": "entries",
 					"name": "Level 7: Nothing Is Truly Held",
 					"entries": [
-						"Possession is merely another claim made beneath the Crown.",
-						"The weapon can hear you even while another hand grips its hilt.",
-						"When owner and Crown give conflicting orders, the object itself is forced to choose.",
 						{
 							"type": "entries",
 							"name": "Command the Possessed",
@@ -14409,9 +14942,6 @@
 					"type": "entries",
 					"name": "Level 9: The Crown Uses All Things",
 					"entries": [
-						"An object doesn't forget what it can do simply because its proper wielder is absent.",
-						"Bloodline, training, ritual, and attunement are permissions created for lesser hands.",
-						"The Crown asks only whether the power exists—and if it does, commands it to answer.",
 						{
 							"type": "entries",
 							"name": "Sovereign Activation",
@@ -14450,9 +14980,6 @@
 					"type": "entries",
 					"name": "Level 13: Ownership Is a Lesser Law",
 					"entries": [
-						"Attunement, curses, creators, and ancient bonds may all claim an object.",
-						"Such claims remain meaningful only until they contradict the Crown.",
-						"When two masters command the same thing, lesser authority is made to yield.",
 						{
 							"type": "entries",
 							"name": "Override the Bond",
@@ -14489,9 +15016,6 @@
 					"type": "entries",
 					"name": "Level 17: The World Kneels",
 					"entries": [
-						"At last, the difference between an arsenal, a fortress, and a city becomes irrelevant.",
-						"Every silent thing within your domain is another body awaiting a command.",
-						"One declaration from the Crown can set an entire landscape into motion.",
 						{
 							"type": "entries",
 							"name": "Mass Edict",
@@ -14538,9 +15062,6 @@
 					"type": "entries",
 					"name": "Level 17: The Crown Builds Titans",
 					"entries": [
-						"Sometimes countless servants are less useful than a single hand large enough to move a kingdom.",
-						"Weapons, machines, ruins, earth, stone, and every silent material nearby are summoned toward a single point.",
-						"What arrives as countless separate things rises again as one colossal body bearing the Crown.",
 						{
 							"type": "entries",
 							"name": "Titan Convergence",
