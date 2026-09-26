@@ -46178,6 +46178,1263 @@
 				},
 				"You can use this Invocation repeatedly on the same spell while that spell remains active."
 			]
+		},
+		{
+			"name": "Overcast Spell",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 15
+				}
+			],
+			"entries": [
+				"Whenever you cast a spell of 1st level or higher using a spell slot, you can treat the spell as though it were cast using a spell slot one level higher than the slot you actually expended.",
+				"For example, if you expend a 5th-level spell slot, the spell is treated as though it were cast using a 6th-level spell slot.",
+				"This can increase a spell only up to 9th level.",
+				"This benefit applies every time you cast an eligible spell and requires no additional action or resource."
+			]
+		},
+		{
+			"name": "Perfect Casting",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 13
+				}
+			],
+			"entries": [
+				"Your spellcasting has been refined beyond ordinary limitations.",
+				"Whenever you cast a spell:",
+				{
+					"type": "list",
+					"items": [
+						"You can cast it without Verbal, Somatic, or Material components.",
+						"You don't need a Spellcasting Focus.",
+						"Material components with a listed cost or that are normally consumed are not required and aren't consumed.",
+						"You can cast while unable to speak, while your hands are occupied, while Restrained, Grappled, bound, submerged, or otherwise unable to perform the spell's normal components.",
+						"Your casting produces no perceptible sign that you are casting a spell before the spell takes effect.",
+						"A creature doesn't automatically know that you are the caster unless the spell itself clearly reveals its source.",
+						"Your casting can't be identified or interrupted by an effect that requires perceiving you cast the spell.",
+						"Your spells can't be Counterspelled or otherwise interrupted by an effect that requires detecting the casting."
+					]
+				},
+				"After the spell takes effect, its normal visible, audible, and other perceptible effects occur normally.",
+				{
+					"type": "entries",
+					"name": "Spellcasting Bonus",
+					"entries": [
+						"You gain a bonus to your spell attack rolls and spell save DC based on your level:",
+						{
+							"type": "table",
+							"caption": "Perfect Casting Bonus",
+							"colLabels": [
+								"Level",
+								"Bonus"
+							],
+							"colStyles": [
+								"col-6 text-center",
+								"col-6 text-center"
+							],
+							"rows": [
+								[
+									"13th–14th",
+									"+1"
+								],
+								[
+									"15th–16th",
+									"+2"
+								],
+								[
+									"17th+",
+									"+3"
+								]
+							]
+						},
+						"This bonus applies to all spells you cast, regardless of which class, feature, item, or other source granted the spell."
+					]
+				}
+			]
+		},
+		{
+			"name": "Unspent Spell",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 11
+				}
+			],
+			"entries": [
+				"When you cast a spell of 1st level or higher using a spell slot, the spell slot is not expended if the spell fails to affect anything.",
+				"This happens if, for example:",
+				{
+					"type": "list",
+					"items": [
+						"Every spell attack misses.",
+						"Every target succeeds on its saving throw and the spell has no effect on a successful save.",
+						"Every intended target becomes invalid before the spell resolves.",
+						"The spell is completely prevented before producing any effect."
+					]
+				},
+				"If the spell deals damage, applies a condition, moves a creature, creates or changes something, or otherwise produces any effect, the spell slot is expended normally.",
+				"Material components and other resources used to cast the spell are still expended normally."
+			]
+		},
+		{
+			"name": "Double Casting",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 17
+				}
+			],
+			"entries": [
+				"Once on each of your turns, when you cast a spell of 1st through 5th level using a spell slot, you can immediately cast that spell a second time as part of the same casting.",
+				"The second casting:",
+				{
+					"type": "list",
+					"items": [
+						"Requires no action and expends no additional spell slot.",
+						"Is cast at the same level as the original spell.",
+						"Can choose completely different legal targets, areas, or points of origin.",
+						"Requires no additional Material components, including components that are normally consumed.",
+						"Doesn't prevent you from casting it because of a rule limiting how many spells you can cast during the turn."
+					]
+				},
+				"If the spell requires Concentration, one Concentration maintains both castings, and both end if that Concentration ends.",
+				"The additional casting can't trigger Double Casting again."
+			]
+		},
+		{
+			"name": "Unbounded Spell",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 15
+				}
+			],
+			"entries": [
+				"Distance no longer limits where your magic can take form.",
+				"Whenever you cast a spell, you can choose any creature, object, or point you can see and cause the spell to originate from that location instead of from you.",
+				"A location counts as something you can see even if you see it indirectly through another creature, a Familiar, a magical sensor, a spell, a Magic Item, or any other effect that allows you to see from another location.",
+				"When you use this Invocation:",
+				{
+					"type": "list",
+					"items": [
+						"The spell appears and takes effect directly at the chosen location. It doesn't travel from you to that location.",
+						"Distance between you and the chosen location doesn't matter.",
+						"Creatures, walls, Total Cover, and other barriers between you and the chosen location don't block the spell.",
+						"Any range, area, Line, Cone, Sphere, Cube, or other effect is measured from the chosen location.",
+						"You choose the spell's direction and orientation from that location.",
+						"After the spell originates there, it follows its normal rules for range, cover, targets, and clear paths from that location onward."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Touch Spells",
+					"entries": [
+						"When you cast a spell with a range of Touch, you can target a creature or object you can see through this Invocation as though you were physically touching it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Self Spells",
+					"entries": [
+						"When you cast a spell with a range of Self:",
+						{
+							"type": "list",
+							"items": [
+								"If the spell creates an area, Line, Cone, emanation, or other effect originating from you, you can cause that effect to originate from the chosen location instead.",
+								"If the spell normally affects only you, you can instead choose one creature you can see at the chosen location. For that casting, the spell treats that creature as you and affects it instead of you."
+							]
+						}
+					]
+				},
+				"For example, while seeing through your Familiar inside a sealed room, you could cast a Touch spell on a creature beside the Familiar, create a Self-originating Cone inside the room, or cast a Self-only spell so that it affects a creature you can see there instead."
+			]
+		},
+		{
+			"name": "Instant Casting",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 15
+				}
+			],
+			"entries": [
+				"You can compress even the longest spellcasting process into a single moment.",
+				"Whenever you cast a spell with a casting time of 1 Action or longer, you can change its casting time to 1 Bonus Action.",
+				"This includes spells that normally require:",
+				{
+					"type": "list",
+					"items": [
+						"1 Action.",
+						"Multiple rounds.",
+						"1 minute.",
+						"10 minutes.",
+						"1 hour.",
+						"8 hours.",
+						"24 hours.",
+						"Any longer casting time."
+					]
+				},
+				"When you use this Invocation:",
+				{
+					"type": "list",
+					"items": [
+						"The entire spell is completed during that Bonus Action.",
+						"You don't need to spend additional Actions, maintain the casting over multiple turns, or remain in place for the spell's normal casting time.",
+						"The casting can't be interrupted merely because the spell normally requires a long period of continuous casting.",
+						"You still expend any required spell slot.",
+						"Material components, including costly or consumed components, are still required normally.",
+						"Reducing the casting time doesn't change the spell's duration, targets, range, Concentration, or other effects."
+					]
+				},
+				"A spell with a casting time of 1 Reaction keeps its normal casting time.",
+				"If you cast a spell as a Ritual, this Invocation can reduce the spell's entire Ritual casting time to 1 Action instead of 1 Bonus Action. The spell still counts as being cast as a Ritual and doesn't expend a spell slot."
+			]
+		},
+		{
+			"name": "Self-Sustaining Spell",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 17
+				}
+			],
+			"entries": [
+				"Your spells no longer need your attention to remain stable.",
+				"Whenever you cast a spell that requires Concentration, you can choose for that casting to require no Concentration, regardless of the spell's level.",
+				"When you do so:",
+				{
+					"type": "list",
+					"items": [
+						"The spell lasts for its normal duration.",
+						"Taking damage can't end the spell.",
+						"Becoming Incapacitated or Unconscious doesn't end the spell.",
+						"Starting Concentration on another spell doesn't end it.",
+						"You can have any number of spells sustained this way at the same time.",
+						"Death doesn't automatically end the spell unless the spell itself says it ends when you die.",
+						"The spell can still be dispelled, suppressed, or otherwise ended by an effect that could normally end that spell."
+					]
+				},
+				"This benefit applies to all spells from 1st through 9th level."
+			]
+		},
+		{
+			"name": "Maximum Casting",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 17
+				}
+			],
+			"entries": [
+				"Your spells no longer rely on favorable rolls for their raw power.",
+				"Whenever you cast a spell, any dice rolled by that spell to determine damage, healing, Temporary Hit Points, or another numerical effect can use their maximum possible result instead of being rolled.",
+				"For example:",
+				{
+					"type": "list",
+					"items": [
+						"{@dice 8d6} damage becomes 48 damage.",
+						"{@dice 6d10} healing becomes 60 Hit Points.",
+						"{@dice 4d8} Temporary Hit Points becomes 32 Temporary Hit Points."
+					]
+				},
+				"This applies every time the spell produces that effect during its duration, not only when the spell is first cast.",
+				"Attack rolls, saving throws, and other d20 Tests are still rolled normally."
+			]
+		},
+		{
+			"name": "Adaptive Spell",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 15
+				}
+			],
+			"entries": [
+				"Your spells can change their structure at the moment of casting.",
+				"Whenever you cast a spell, you can make any of the following changes to that casting:",
+				{
+					"type": "list",
+					"items": [
+						"Change any damage type dealt by the spell to another damage type of your choice.",
+						"If the spell requires a saving throw, change that saving throw to Strength, Dexterity, Constitution, Intelligence, Wisdom, or Charisma.",
+						"If the spell creates a Cone, Cube, Cylinder, Line, or Sphere, you can change it into another one of those shapes while keeping roughly the same total size.",
+						"If the spell normally targets only creatures, you can also allow it to target objects, and vice versa, as long as the effect can meaningfully apply.",
+						"You can make different choices each time you cast the spell."
+					]
+				},
+				"These changes don't alter the spell's level, casting time, duration, number of targets, or spell slot cost."
+			]
+		},
+		{
+			"name": "Unrestricted Casting",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 13
+				}
+			],
+			"entries": [
+				"Your spellcasting is no longer limited by how many leveled spells you can cast during the same turn.",
+				"You ignore any rule that limits you to casting only one spell using a spell slot during a turn.",
+				"This means:",
+				{
+					"type": "list",
+					"items": [
+						"Casting a spell with your Action doesn't prevent you from casting another leveled spell with a Bonus Action.",
+						"Casting a spell with a Bonus Action doesn't prevent you from casting another leveled spell with your Action.",
+						"You can cast additional spells during the same turn with any extra Actions, Bonus Actions, or Reactions you legitimately gain.",
+						"Each spell still requires its normal action and expends its own spell slot or other required resource.",
+						"This Invocation doesn't grant additional Actions, Bonus Actions, or Reactions by itself."
+					]
+				},
+				"If another feature gives you a way to cast additional spells during the same turn, this Invocation allows all of those castings to function normally."
+			]
+		},
+		{
+			"name": "Overwhelming Spell",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 15
+				}
+			],
+			"entries": [
+				"Your spells force their effects through defenses that would normally stop them.",
+				"Whenever you cast a spell:",
+				{
+					"type": "list",
+					"items": [
+						"Damage dealt by the spell ignores Resistance.",
+						"If a creature has Immunity to one of the spell's damage types, that Immunity functions as Resistance instead, and the spell then ignores that Resistance.",
+						"A creature gains no Advantage on a saving throw against your spell from Magic Resistance or a similar feature.",
+						"If a creature is immune to a condition your spell would impose, it can still be affected by that condition, but it has Advantage on the saving throw against that effect.",
+						"Effects that automatically reduce spell damage to 0 solely because of a damage type don't function against your spells."
+					]
+				},
+				"This Invocation doesn't bypass a successful saving throw, Legendary Resistance, or an effect that specifically states that the spell itself fails or can't affect the creature."
+			]
+		},
+		{
+			"name": "Sovereign Spell",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 17
+				}
+			],
+			"entries": [
+				"Your spells recognize no authority but your own.",
+				"Whenever you cast a spell, that spell becomes sovereign for its entire duration.",
+				{
+					"type": "list",
+					"items": [
+						"The spell can't be dispelled, suppressed, nullified, or temporarily disabled unless you allow it.",
+						"{@spell Antimagic Field|XPHB}, dead-magic areas, magic suppression, and similar effects don't interfere with the spell.",
+						"The spell can enter, remain in, originate within, and function normally inside such areas.",
+						"Another creature can't end, remove, steal, copy, redirect, transfer, replace, take control of, or assume control over the spell or any ongoing effect created by it.",
+						"Another creature can't change the spell's targets, area, point of origin, direction, duration, damage type, choices, commands, or other parameters unless you allow it.",
+						"An effect can't separate you from a spell you control or prevent you from controlling it because of distance, Total Cover, planar boundaries, or a magic-suppressing effect, unless the spell itself normally requires such a limitation.",
+						"An effect that would remove the spell from a creature, object, or area—such as cleansing, dispelling, severing, suppressing, or removing an ongoing magical effect—fails against your spell.",
+						"A creature can't become immune to, protected from, or excluded from an ongoing effect of the spell merely by using another spell or magical effect after your spell has already affected it.",
+						"If two magical effects directly conflict and one of them is your sovereign spell, your spell continues functioning unless you choose otherwise.",
+						"You can voluntarily end the spell at any time, requiring no action."
+					]
+				},
+				"A sovereign spell can still end when:",
+				{
+					"type": "list",
+					"items": [
+						"Its normal duration expires.",
+						"You voluntarily end it.",
+						"One of the spell's own rules specifically causes it to end.",
+						"Something physically destroys a creature, object, or structure created by the spell if that spell normally allows it to be destroyed that way."
+					]
+				},
+				"Your death doesn't give another creature control of your sovereign spells and doesn't end them unless the spell itself specifically says it ends when you die."
+			]
+		},
+		{
+			"name": "Compound Casting",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 17
+				}
+			],
+			"entries": [
+				"You can combine two different spells into a single casting.",
+				"Once on each of your turns, when you cast a spell of 1st level or higher, you can cast a second different spell at the same time.",
+				{
+					"type": "list",
+					"items": [
+						"Both spells must normally have the same casting time.",
+						"You expend the normal spell slot or other resource for each spell.",
+						"Both spells resolve as part of the same casting.",
+						"Each spell can choose its own legal targets, areas, directions, and other choices.",
+						"If both spells require spell attacks or saving throws, resolve each spell separately.",
+						"If both spells require Concentration, you can Concentrate on both as though they were one spell. If that Concentration ends, both spells end.",
+						"Casting the second spell requires no additional Action, Bonus Action, or Reaction.",
+						"The second spell doesn't trigger Compound Casting again."
+					]
+				},
+				"For example, you could cast {@spell Disintegrate|XPHB} and {@spell Hold Monster|XPHB} together with the same Action, expending the appropriate spell slot for each spell."
+			]
+		},
+		{
+			"name": "Focused Spell",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 15
+				}
+			],
+			"entries": [
+				"You can compress the full power of an area spell into a single target.",
+				"Whenever you cast a spell that normally affects an area or can affect multiple creatures, you can choose one creature that could legally be affected by the spell and focus the entire casting on it.",
+				"When you do:",
+				{
+					"type": "list",
+					"items": [
+						"The spell affects only that creature.",
+						"Double all damage dice and healing dice of the spell against that creature.",
+						"The creature has Disadvantage on every saving throw it makes against that casting.",
+						"If the spell normally deals half damage on a successful save, it instead deals full damage on a successful save.",
+						"If the spell makes multiple spell attacks, all of them can target that creature even if the spell normally requires different targets.",
+						"Any condition, forced movement, or other effect that would normally apply to a creature affected by the spell applies normally.",
+						"The spell otherwise keeps its normal level, duration, Concentration, and spell slot cost."
+					]
+				},
+				"For example, you could compress a large {@spell Fireball|XPHB} into one creature, dealing twice its normal damage dice to that target instead of creating an area."
+			]
+		},
+		{
+			"name": "Universal Targeting",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 15
+				}
+			],
+			"entries": [
+				"Your spells no longer care what kind of creature stands before you.",
+				"Whenever you cast a spell, you can ignore restrictions based on a target's creature type, size, anatomy, or similar physical classification.",
+				"This means:",
+				{
+					"type": "list",
+					"items": [
+						"A spell that normally affects only Humanoids can affect any creature.",
+						"A spell that normally affects only Beasts, Undead, Constructs, Fiends, Celestials, Plants, or another creature type can affect any creature.",
+						"A spell that normally works only on creatures of a certain Size can affect creatures of any Size.",
+						"A spell can't fail solely because the target lacks a particular biological feature, such as blood, breath, flesh, bones, or a conventional body, as long as the spell's effect can still meaningfully apply.",
+						"The spell still follows its normal rules for range, saving throws, attack rolls, duration, and number of targets.",
+						"This Invocation doesn't ignore a requirement that the target be willing."
+					]
+				},
+				"For example, {@spell Hold Person|XPHB} could affect a Dragon, {@spell Dominate Beast|XPHB} could affect a Construct, and a spell limited to Large or smaller creatures could affect a Gargantuan creature."
+			]
+		},
+		{
+			"name": "Locked Spell",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 13
+				}
+			],
+			"entries": [
+				"Once your spell takes hold, escaping it becomes extremely difficult.",
+				"Whenever a creature fails its first saving throw against a spell you cast, that creature automatically fails any later saving throw granted by the same spell specifically to:",
+				{
+					"type": "list",
+					"items": [
+						"End the spell's effect on itself.",
+						"Escape from the spell.",
+						"Remove a condition caused by the spell.",
+						"Break free from a restraint, control effect, transformation, or similar ongoing effect caused by the spell."
+					]
+				},
+				"Saving throws caused by the spell for new damage or new effects are still rolled normally.",
+				"This Invocation doesn't affect the spell's initial saving throw and doesn't prevent a creature from using Legendary Resistance on that initial save.",
+				"For example, if a creature fails its initial save against {@spell Hold Monster|XPHB}, it can't later succeed on the repeated saves to end the Paralyzed condition from that casting."
+			]
+		},
+		{
+			"name": "Unbound Form",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 11
+				}
+			],
+			"entries": [
+				"Your body is no longer a fixed thing.",
+				"At the start of each of your turns, you can reshape yourself in any number of the following ways. The changes last until you change them again.",
+				{
+					"type": "list",
+					"items": [
+						"Change your Size to Tiny, Small, Medium, Large, or Huge. Your equipment changes with you.",
+						"Grow or remove limbs, eyes, mouths, wings, tails, gills, claws, or other ordinary body parts.",
+						"Gain a Climb Speed or Swim Speed equal to your Speed.",
+						"If you create wings, gain a Fly Speed equal to your Speed.",
+						"You can breathe air and water.",
+						"Your reach becomes 10 feet if your current form has limbs capable of reaching that distance.",
+						"You can move through a space as narrow as 1 inch without Squeezing, provided your equipment can pass with you.",
+						"You can alter your voice, facial features, apparent age, sex, height, weight, skin, hair, and other physical details freely.",
+						"You can make your body appear to belong to any Humanoid species or other creature with a similar body plan, but this doesn't give you that creature's statistics or special abilities.",
+						"Missing nonessential body parts can be replaced instantly when you reshape yourself."
+					]
+				},
+				"These changes are not a spell, transformation spell, or illusion. They are your natural physical state.",
+				"An effect that reveals your \"true form\" reveals only that your body has no single fixed form; it doesn't force you back into any previous appearance."
+			]
+		},
+		{
+			"name": "Every Door Leads Somewhere",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 11
+				}
+			],
+			"entries": [
+				"Every doorway you pass through leaves a faint impression in your mind. When you later place your hand on another threshold, its interior darkens into an impossible depth, and for a moment the doorway opens somewhere else entirely.",
+				"Whenever you pass through a doorway, gate, archway, hatch, window, or similar opening, you can remember that threshold. You can remember a number of thresholds equal to twice your Proficiency Bonus.",
+				"As an Action, while touching a doorway or similar opening large enough for you to pass through, choose one remembered threshold on the same plane of existence. Until the start of your next turn, the opening leads directly to that threshold instead of to the space normally beyond it.",
+				{
+					"type": "list",
+					"items": [
+						"Anything that can physically fit through the opening can pass through.",
+						"Creatures, objects, attacks, spells, sound, and light can pass through normally.",
+						"Distance between the two thresholds doesn't matter.",
+						"You don't need to know the exact location of the destination, only which remembered threshold you are choosing.",
+						"The destination threshold doesn't need to be open, unlocked, or unobstructed on its original side.",
+						"You can see and hear through the connected opening.",
+						"Movement through it costs movement normally, but the two openings count as adjacent while connected.",
+						"A creature passing through chooses its exact unoccupied space immediately beyond the destination threshold.",
+						"You can end the connection at any time, requiring no Action.",
+						"If either threshold is destroyed, ceases to exist, or becomes too small for the thing attempting to pass through, that passage can't be used."
+					]
+				},
+				"When you would remember a new threshold beyond your limit, choose one existing memory to forget.",
+				"This Invocation isn't teleportation and doesn't create a spell effect. For the brief time the connection exists, the two thresholds are simply the same doorway."
+			]
+		},
+		{
+			"name": "Weight Is Optional",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 11
+				}
+			],
+			"entries": [
+				"Your body has stopped treating weight as an inherent property. Your steps can become too light to disturb dust, then impossibly heavy a heartbeat later, bending stone beneath your feet without changing your shape.",
+				"You can change your effective weight at any time, requiring no Action or Reaction, even while falling, being moved, or during another creature's turn.",
+				"Choose any weight from effectively weightless to 1,000,000 pounds.",
+				"Your Size doesn't change, and your chosen weight never makes it harder for you to move or act.",
+				"You never take falling damage, regardless of your current weight, the distance fallen, or what surface you land on.",
+				{
+					"type": "entries",
+					"name": "Nearly Weightless",
+					"entries": [
+						"While nearly weightless:",
+						{
+							"type": "list",
+							"items": [
+								"You gain a Fly Speed equal to your Speed and can hover.",
+								"You can stand and move across liquids, fragile surfaces, snow, leaves, ropes, and similar things without breaking or sinking through them.",
+								"Your jump distance has no normal limit from your Strength; you can jump up to your remaining movement.",
+								"You can stop yourself in midair at any point during a fall."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Massively Heavy",
+					"entries": [
+						"While massively heavy:",
+						{
+							"type": "list",
+							"items": [
+								"You can't be knocked Prone or moved against your will unless you allow it.",
+								"You can't be lifted, carried, dragged, thrown, or telekinetically moved unless the effect is capable of moving your current weight.",
+								"A creature Grappling you can't move you unless it could normally move your current weight.",
+								"Ordinary wind, currents, explosions, recoil, impacts, and collapsing terrain can't move you against your will.",
+								"You have Advantage on Strength checks and Strength saving throws, and you can use your current weight instead of your normal body weight whenever weight or mass would be beneficial.",
+								"Your weight doesn't prevent you from walking, climbing, jumping, swimming, flying, or otherwise using your movement normally.",
+								"A surface that can't support your chosen weight can crack, collapse, or give way beneath you as appropriate."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Unstoppable Descent",
+					"entries": [
+						"When you descend at least 10 feet before striking a creature, object, or surface, you can become massively heavy immediately before impact.",
+						"You take no damage from the collision.",
+						"Each creature of your choice within 15 feet of the point of impact must make a Dexterity saving throw against your Spell Save DC.",
+						"On a failed save, a creature takes {@damage 2d12} Bludgeoning damage for every 10 feet you descended, to a maximum of {@damage 20d12}, is knocked Prone, and is pushed up to 15 feet away from the impact.",
+						"On a successful save, it takes half as much damage and suffers no other effect.",
+						"Unattended objects and structures automatically take the damage.",
+						"If you strike a floor, roof, bridge, wall, vehicle, or other structure that can't withstand your chosen weight, you can continue falling or moving through it rather than stopping at the first surface."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Immovable by Choice",
+					"entries": [
+						"Whenever an effect would forcibly move, teleport, banish, launch, pull, push, or otherwise relocate you against your will, you can make yourself impossibly anchored.",
+						"If the effect allows a saving throw or ability check, you automatically succeed.",
+						"If it normally allows no roll, you instead remain where you are unless the effect is capable of moving at least 1,000,000 pounds or moves the entire region or plane containing you.",
+						"Your weight returns to whatever value you choose immediately afterward."
+					]
+				}
+			]
+		},
+		{
+			"name": "Everything Within Reach",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 11
+				}
+			],
+			"entries": [
+				"Distance no longer determines what your body can reach. When you extend a hand toward something far away, perspective folds around you; your arm appears to vanish into the intervening distance and emerge beside whatever you chose to touch.",
+				"Anything you can see on the same plane of existence is considered to be within your physical reach, regardless of the actual distance between you.",
+				{
+					"type": "list",
+					"items": [
+						"You can touch, grab, pick up, carry, open, close, press, pull, push, turn, drag, throw, or otherwise physically manipulate anything you can see.",
+						"You can make melee weapon attacks, Unarmed Strikes, Grapples, and Shoves against visible creatures at any distance.",
+						"A melee attack made this way remains a melee attack.",
+						"Your attacks don't suffer Disadvantage merely because of the distance involved.",
+						"You can make Opportunity Attacks against any creature you can see that would normally provoke one from you.",
+						"You can use Touch-range spells, class features, Magic Items, and other abilities on a visible target through this reach.",
+						"You can retrieve a visible unattended object directly into your hand.",
+						"You can place or throw an object you are holding into any visible space.",
+						"You can interact with objects behind transparent barriers as long as you can see them, though a magical effect that specifically prevents passage or interaction can still stop you.",
+						"Your normal Strength and carrying capacity still determine what you can physically lift or carry."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Distant Grasp",
+					"entries": [
+						"When you Grapple a creature using this Invocation, distance doesn't end the Grapple.",
+						"While you maintain it:",
+						{
+							"type": "list",
+							"items": [
+								"The creature can be any distance from you as long as you can still see it.",
+								"You can prevent it from moving in any direction you choose.",
+								"When you move the creature, you can move it toward you, away from you, sideways, upward, or downward rather than merely dragging it beside you.",
+								"You can move it up to your Speed whenever you would normally be able to move a Grappled creature.",
+								"Size doesn't prevent you from attempting the Grapple, though your normal Strength still determines whether you succeed.",
+								"If you can lift the creature, you can suspend it in the air while Grappling it.",
+								"If you stop being able to see it, the Grapple ends."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Take It From There",
+					"entries": [
+						"When you successfully hit a creature with a melee attack through this Invocation, you can immediately attempt one of the following against it without using an additional Action:",
+						{
+							"type": "list",
+							"items": [
+								"Grapple it.",
+								"Shove it.",
+								"Take one unattended object in its space.",
+								"Attempt to take one object it is holding. The creature makes a Strength or Dexterity saving throw, its choice, against your Spell Save DC. On a failure, the object appears in your hand if you can carry it."
+							]
+						},
+						"You can use this benefit once on each of your turns."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Nothing Is Too Far to Catch",
+					"entries": [
+						"When a creature or object you can see begins falling, is thrown, is launched, or would move past a point you can see, you can use your Reaction to reach it instantly.",
+						"If it is willing or unattended, you can catch it automatically.",
+						"If it is an unwilling creature, make a Grapple attempt against it. On a success, its movement immediately stops and you hold it at that location.",
+						"A creature or object you catch this way takes no falling damage from the distance it had fallen before you caught it."
+					]
+				},
+				"For you, \"out of reach\" is no longer a meaningful distance."
+			]
+		},
+		{
+			"name": "There Is No Between",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 11
+				}
+			],
+			"entries": [
+				"Distance no longer exists for you in the usual way. When you move, your body briefly stretches into an impossible line before appearing where you intended to be.",
+				"Whenever you move, you can instead choose an unoccupied space you can perceive within 300 feet. You move directly there, spending only 5 feet of movement.",
+				{
+					"type": "list",
+					"items": [
+						"You don't pass through the intervening spaces.",
+						"This movement isn't teleportation.",
+						"Walls, terrain, creatures, hazards, and magical barriers such as {@spell Wall of Force|XPHB} or {@spell Forcecage|XPHB} don't prevent it.",
+						"You can move in any direction, including through empty air.",
+						"You don't provoke Opportunity Attacks from this movement.",
+						"You can remain standing in midair or on vertical or inverted surfaces without falling.",
+						"You can use this movement while Grappled, Restrained, Prone, bound, enclosed, or otherwise unable to move normally.",
+						"Using this movement immediately ends any Grapple affecting you, and frees you from any mundane restraint or confinement that can't continue to affect you at your destination.",
+						"You can bring one willing creature you are touching or one creature you are Grappling."
+					]
+				},
+				"Once on each of your turns, you can move to a location within 300 feet that you can't currently perceive, provided you have personally occupied that exact location before.",
+				"For you, there is no path between two places—only where you are, and where you choose to be."
+			]
+		},
+		{
+			"name": "Flat Against the World",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 11
+				}
+			],
+			"entries": [
+				"Your body can collapse into a living image upon any surface, becoming thinner than paper while remaining fully capable of acting.",
+				"As a Bonus Action, you can flatten yourself onto a surface you touch. You can return to normal form at any time, requiring no Action.",
+				"While flattened:",
+				{
+					"type": "list",
+					"items": [
+						"Your Speed is doubled, and you can move across walls, floors, ceilings, creatures, objects, and other solid surfaces.",
+						"You can pass through cracks, beneath doors, and through openings as narrow as a hair.",
+						"You can't be Grappled, Restrained, Shoved, or knocked Prone by physical means.",
+						"You have Resistance to all damage except Force and Psychic.",
+						"You have Advantage on Dexterity saving throws, and take no damage on a successful Dexterity save that would normally deal half damage.",
+						"You can still attack, cast spells, manipulate objects, and use your abilities normally. Range and reach are measured from your position on the surface.",
+						"You can move directly from one touching surface to another regardless of their angle.",
+						"You can move across the surface of a creature; if it moves, you move with it without spending movement.",
+						"You don't fall while attached to a surface, even if that surface is moving or upside down."
+					]
+				},
+				"If the surface beneath you is destroyed, you can immediately attach yourself to another surface within 30 feet. If none exists, you return to normal form in the nearest unoccupied space.",
+				"You can remain flattened indefinitely."
+			]
+		},
+		{
+			"name": "Wear the World",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 11
+				}
+			],
+			"entries": [
+				"Nonliving matter can become your body. When you touch an object or structure, your form sinks into it until only faint traces of you remain across its surface.",
+				"As a Bonus Action, merge into one nonliving object or connected structure you touch. You can leave it at any time, requiring no Action.",
+				"While merged:",
+				{
+					"type": "list",
+					"items": [
+						"You occupy the object instead of your normal space and have Total Cover from outside it.",
+						"You can see, hear, speak, attack, cast spells, and use abilities from any point on its surface.",
+						"You move with it automatically and can control all of its movement, mechanisms, doors, limbs, weapons, controls, and other functional parts.",
+						"If it can't normally move, you can make it move with a Speed of 60 feet, including climbing surfaces.",
+						"When the object makes an attack, check, or saving throw, you can use your own attack bonus, ability modifier, or saving throw bonus if higher.",
+						"The object has Resistance to all damage while you inhabit it.",
+						"Damage dealt to the object doesn't damage you.",
+						"Once on each of your turns, you can move directly into another nonliving object or connected structure touching your current one, requiring no Action.",
+						"Magic that would normally target only a creature can't target you through the object unless it can also affect you despite Total Cover."
+					]
+				},
+				"If the object is destroyed, you immediately emerge in the nearest unoccupied space and take {@damage 2d10} Force damage.",
+				"You can inhabit anything from a Tiny object to an entire connected structure."
+			]
+		},
+		{
+			"name": "Borrowed Identity",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 13
+				}
+			],
+			"entries": [
+				"You can force reality to recognize you as someone you remember.",
+				"As a Bonus Action, choose one creature whose identity you can clearly remember. You copy that creature's identity until you choose another.",
+				{
+					"type": "list",
+					"items": [
+						"You count as both yourself and that creature whenever identity matters.",
+						"Your appearance doesn't change, but other creatures perceive and recognize you as the copied creature.",
+						"Creatures remember encounters with you as encounters with the copied creature.",
+						"No matter how strange, impossible, or out of character your behavior is, creatures treat it as normal for that creature and instinctively rationalize it.",
+						"Your voice, scent, fingerprints, blood, magical signature, soul, name, species, creature type, bloodline, class, and similar identifiers can be treated as either yours or theirs, your choice.",
+						"Locks, wards, portals, contracts, Magic Items, divination, tracking, and similar effects recognize you as the copied creature.",
+						"You satisfy requirements based on that creature's identity.",
+						"Truesight and effects that reveal illusions don't expose you, because your appearance isn't being disguised."
+					]
+				},
+				"You don't gain the creature's statistics, memories, features, spells, or abilities."
+			]
+		},
+		{
+			"name": "You Already Thought of That",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 11
+				}
+			],
+			"entries": [
+				"Preparation is only difficult when it has to happen before you need it.",
+				"Whenever a need arises, you can declare that you already prepared for it at some point during the previous 7 days.",
+				"Choose a time and place during that period where you were personally present. You establish that you spent up to 1 hour performing any actions you could genuinely have performed there.",
+				{
+					"type": "list",
+					"items": [
+						"Hidden, moved, planted, retrieved, purchased, carried, assembled, dismantled, or prepared objects.",
+						"Written messages, maps, instructions, passwords, warnings, or other information.",
+						"Opened, locked, blocked, altered, trapped, reinforced, or otherwise prepared part of the environment.",
+						"Cast spells, performed rituals, or activated Magic Items you possessed and could have used at that time.",
+						"Spent spell slots, charges, money, ammunition, components, Hit Dice, or other resources you actually possessed at that time."
+					]
+				},
+				"Reality immediately changes to reflect that this preparation already occurred.",
+				"Any resource used becomes expended now, any object you left somewhere is considered to have remained there since then, and an effect with a duration measures that duration from the moment you retroactively created it.",
+				"You can establish any number of connected preparatory actions within the chosen hour, provided you could physically have completed them.",
+				"You can use this Invocation any number of times. It has no usage limit, but every use must still obey its normal requirements and expend any resources the established preparation would have required.",
+				"You can't use this Invocation to directly attack, damage, control, or otherwise affect an unwilling creature in the past, nor can you determine another creature's past choices.",
+				"Physical evidence, written records, surveillance, and the memories of creatures other than you adjust to the resulting history. You retain your original memories and immediately understand every change caused by your preparation.",
+				"You don't travel through time.",
+				"You simply reveal that you were prepared all along."
+			]
+		},
+		{
+			"name": "Material Is a Choice",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 11
+				}
+			],
+			"entries": [
+				"Stone, steel, glass, and gold are only different answers to the same question.",
+				"As a Bonus Action, choose nonliving matter you can see within 60 feet and any material or physical substance you have personally encountered before.",
+				"You can transform any portions of the chosen matter contained within a 60-foot Cube into that substance.",
+				{
+					"type": "list",
+					"items": [
+						"You choose the transformation with perfect precision, including individual layers, internal sections, hollow spaces, mixtures, patterns, and microscopic components.",
+						"You can transform solids, liquids, gases, and other physical substances.",
+						"Shape and volume remain as you choose rather than being determined by the original material.",
+						"The transformed matter gains all ordinary physical properties of the chosen substance, including hardness, flexibility, density, conductivity, transparency, melting point, buoyancy, and similar properties.",
+						"You can freely redistribute the affected matter within the area while transforming it, allowing you to reshape structures, create openings, seal gaps, form tools, create supports, or completely rebuild the affected material.",
+						"Matter can be separated into multiple substances during the same use.",
+						"The transformation is permanent."
+					]
+				},
+				"You can affect unattended objects, terrain, buildings, vehicles, and objects being worn or carried. A creature holding or wearing an affected object doesn't prevent its transformation.",
+				"Magic Items retain their magical properties even if their physical material and shape are completely changed. You can't create or duplicate a magical property merely by reproducing the material of a Magic Item.",
+				"You can't directly transform a creature's body, but nonliving material inside, attached to, implanted within, or surrounding a creature can be affected normally.",
+				"Artifacts resist this Invocation unless their own properties allow their physical substance to be altered."
+			]
+		},
+		{
+			"name": "What a Coincidence",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 11
+				}
+			],
+			"entries": [
+				"If something could go your way, somehow it does.",
+				{
+					"type": "entries",
+					"name": "Make It Happen",
+					"entries": [
+						"As a Bonus Action, describe one physically possible mundane event involving something you can perceive within 120 feet. Before the start of your next turn, that event occurs through an extraordinary but possible coincidence.",
+						"The event can't directly control another creature's decisions, contradict an established fact, or cause something physically impossible."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Of Course",
+					"entries": [
+						"Whenever a random or genuinely uncertain event you can perceive is about to be determined, you can choose one possible outcome instead."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Convenient Reality",
+					"entries": [
+						"Whenever an unestablished mundane fact becomes relevant, you can declare a favorable version of that fact, provided it was genuinely possible and doesn't contradict anything already established."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cheat the Roll",
+					"entries": [
+						"When a creature you can perceive rolls a die, you can change one die to any result that die could normally roll.",
+						"This can affect Attack Rolls, Saving Throws, Ability Checks, damage, healing, Recharge rolls, random tables, and any other die roll. A d20 can become a natural 20 or natural 1."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Stack the Odds",
+					"entries": [
+						"As an Action, choose one creature you can perceive within 120 feet. Until the start of your next turn, whenever that creature rolls dice, you choose the result of every die it rolls from among the results that die could normally produce."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fortune Is Yours",
+					"entries": [
+						"Whenever genuine in-world chance determines an outcome, you can choose the result.",
+						"This includes cards, dice, roulette, lotteries, coin flips, shuffled draws, random selections, and randomly determined targeting. If winning is one of the possible outcomes determined purely by chance, you can choose to win."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Impossible Luck",
+					"entries": [
+						"You can't have Disadvantage on a d20 Test. Any effect that would impose Disadvantage on one of your d20 Tests fails to do so.",
+						"Disadvantage can't cancel Advantage you have. Whenever you make a d20 Test with Advantage, roll one additional d20 and choose which result to use.",
+						"Whenever an effect forces you to reroll a d20, you can choose whether to use the original roll or the reroll."
+					]
+				},
+				"This Invocation can't directly control another creature's decisions, contradict an established fact, or make a physically impossible event occur.",
+				"If reality contains even one favorable possibility, chance can find it for you."
+			]
+		},
+		{
+			"name": "Down Is Wherever I Point",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 11
+				}
+			],
+			"entries": [
+				"Gravity is a direction, not a law.",
+				"As a Bonus Action, choose a point you can see within 120 feet and a direction. Gravity within a 60-foot Cube centered on that point pulls in the chosen direction until you change or end it.",
+				{
+					"type": "list",
+					"items": [
+						"Floors, walls, and ceilings can become down.",
+						"Creatures and unsecured objects fall in that direction normally.",
+						"You can point gravity upward, sideways, diagonally, or toward a specific point.",
+						"Creatures can stand and move normally on whichever surface gravity presses them against.",
+						"Falling distance and falling damage use the new direction of gravity.",
+						"You can move the Cube or change its gravity direction as a Bonus Action.",
+						"You can exclude any creatures or objects you choose."
+					]
+				},
+				"You can also change your own personal gravity at any time without an Action, allowing you to walk on walls, ceilings, or simply fall toward whatever direction you choose.",
+				"Down is wherever you say it is."
+			]
+		},
+		{
+			"name": "Not Worth Noticing",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 11
+				}
+			],
+			"entries": [
+				"Being visible and being noticed are not the same thing.",
+				"As a Bonus Action, choose any number of creatures, objects, or ongoing events you can perceive within 120 feet, up to your Proficiency Bonus. Each becomes perceptually irrelevant until you end the effect.",
+				"Affected things remain completely visible and detectable, but creatures instinctively dismiss them as meaningless background.",
+				{
+					"type": "list",
+					"items": [
+						"Creatures don't willingly focus on, investigate, follow, approach, avoid, target, or react to it.",
+						"It can't provoke Opportunity Attacks.",
+						"Creatures won't deliberately include it as a target of an attack, spell, feature, command, alarm, or other chosen effect.",
+						"If a creature nevertheless attempts to directly interact with, investigate, manipulate, oppose, attack, or otherwise act against an affected thing, it has Disadvantage on every Attack Roll and Ability Check made as part of that attempt.",
+						"Creatures automatically overlook suspicious, unusual, dangerous, or blatantly impossible behavior involving it and rationalize what they perceive as unimportant.",
+						"Truesight, Blindsight, Tremorsense, magical detection, surveillance, recordings, and similar methods can perceive it normally, but don't overcome this Invocation.",
+						"Memories involving it remain, but creatures instinctively disregard their significance and rarely think to act upon them.",
+						"Explicitly warning another creature about the affected thing doesn't automatically make it important enough to notice."
+					]
+				},
+				"If an affected thing directly damages a creature, that creature can focus on and respond to it until the end of its next turn. Other creatures remain unaffected by that exception.",
+				"You can affect yourself, your equipment, your allies, or actions and phenomena they create.",
+				"You can end any individual effect at any time, requiring no Action.",
+				"They can see you. They know you're there. Their mind simply refuses to treat that fact as important."
+			]
+		},
+		{
+			"name": "The Truth Is in the Answer",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 13
+				}
+			],
+			"entries": [
+				"Anyone can stay silent. Speaking to you is the dangerous part.",
+				"Whenever a creature you can perceive answers a question you asked, you immediately understand the complete truth as that creature actually knows and remembers it.",
+				"This occurs regardless of what words it chooses to give you.",
+				"You learn:",
+				{
+					"type": "list",
+					"items": [
+						"Whether every part of its spoken answer is true, false, mistaken, incomplete, or deliberately misleading.",
+						"The truthful answer it could have given using its own knowledge and memories.",
+						"Any relevant information it intentionally omitted, concealed, minimized, or avoided mentioning.",
+						"The intended meaning behind ambiguous wording, coded language, euphemisms, technicalities, implications, or deliberate misdirection.",
+						"Whether it actually knows something it claims not to know or remember.",
+						"Which parts of its knowledge are uncertain, secondhand, assumed, or based on incomplete information.",
+						"Whether any relevant memory it possesses appears to have been magically altered, suppressed, fabricated, or removed."
+					]
+				},
+				"The creature doesn't realize what information you learned unless you reveal it.",
+				"It can still refuse to answer or remain completely silent. However, any deliberate response to the question counts as answering, including a lie, partial answer, deflection, coded response, or claim of ignorance.",
+				"Magic, features, or abilities that prevent lie detection or conceal whether a creature is truthful don't prevent this Invocation.",
+				"This Invocation reveals what the creature genuinely knows; it doesn't make incorrect beliefs true and doesn't restore information completely absent from its mind.",
+				"Once they answer, you don't hear what they chose to tell you. You hear everything they tried not to."
+			]
+		},
+		{
+			"name": "There Is Always a Way There",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 11
+				}
+			],
+			"entries": [
+				"You don't need a map. You need a destination.",
+				"Choose any creature, object, or location on your current plane that you can identify by sight, memory, name, description, or previous encounter.",
+				"You immediately know its exact direction, distance, and the best route to reach it.",
+				"The route continuously updates as you move, the destination moves, or circumstances change.",
+				"You can choose the:",
+				{
+					"type": "list",
+					"items": [
+						"Shortest route.",
+						"Fastest route.",
+						"Safest route.",
+						"Least guarded route.",
+						"Least noticeable route.",
+						"Route requiring the fewest resources.",
+						"Best route for intercepting a moving destination."
+					]
+				},
+				"Your guidance accounts for everything that presently affects travel, including secret doors, hidden passages, traps, guards, hazards, locked areas, vertical routes, portals, vehicles, shifting terrain, illusions, magical mazes, extradimensional architecture, and your own abilities.",
+				"You can't become lost, magically misdirected, or deceived about which direction leads toward your chosen destination.",
+				"You automatically know:",
+				{
+					"type": "list",
+					"items": [
+						"Every obstacle you must overcome before reaching it.",
+						"Approximately how long each available route will take.",
+						"Where a route branches and what each branch leads toward.",
+						"When a previously better route becomes unavailable or a new superior route appears."
+					]
+				},
+				"If no complete route currently exists, you instead know the smallest series of changes necessary to create one—such as opening a sealed door, breaking a wall, obtaining a key, activating a portal, moving an obstruction, repairing a bridge, or reaching a required intermediary location.",
+				"If reaching the destination is presently impossible by any means available on your plane, you know exactly what makes it impossible.",
+				"You can reproduce any route revealed by this Invocation as a perfectly accurate map.",
+				"There is always a way there. And if there isn't, you know what must change until there is."
+			]
+		},
+		{
+			"name": "Your Body Has No Safe Limit",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 13
+				}
+			],
+			"entries": [
+				"The limits of the body exist to prevent it from destroying itself. Yours stopped caring.",
+				"Your body continuously operates beyond its normal physical limits.",
+				{
+					"type": "list",
+					"items": [
+						"Your Speed is tripled.",
+						"You gain a Climb and Swim Speed equal to your Speed.",
+						"Difficult Terrain doesn't cost you extra movement.",
+						"Standing from Prone costs no movement.",
+						"Your jump distance is ten times normal, and you don't need a running start.",
+						"Your movement doesn't provoke Opportunity Attacks.",
+						"You have Advantage on all Strength, Dexterity, and Constitution Ability Checks and Saving Throws.",
+						"You can't have Disadvantage on those checks or saving throws.",
+						"Whenever you roll a Strength, Dexterity, or Constitution Ability Check or Saving Throw, a d20 result of 9 or lower counts as 10.",
+						"Your Speed can't be reduced unless an effect reduces it to 0.",
+						"You can't gain Exhaustion from physical exertion, lack of sleep, forced marches, extreme physical activity, or similar bodily strain.",
+						"You can hold your breath indefinitely and can continue strenuous physical activity without needing to rest or pace yourself.",
+						"You have Resistance to Bludgeoning, Piercing, and Slashing damage."
+					]
+				},
+				"Whenever you make a weapon attack or Unarmed Strike, you can use Strength or Dexterity, regardless of the weapon's normal properties.",
+				"Your body also reacts faster than conscious thought. You gain one additional Reaction each round, though you can't use more than one Reaction during the same turn.",
+				"At the start of each of your turns, if you have at least 1 Hit Point, you regain Hit Points equal to your Proficiency Bonus + your Constitution modifier.",
+				"You can exert maximum physical force instantly without needing leverage, preparation, a running start, or proper footing. Your own body never limits how much of your available Strength you can apply.",
+				"If an ordinary humanoid body could theoretically perform an action but would normally injure itself attempting it—such as striking at full force, landing from extreme movement, accelerating suddenly, or exerting itself beyond safe muscular limits—you suffer no harm merely from your own physical output.",
+				"Your body no longer survives what you demand of it. It was rebuilt around the assumption that you will demand more."
+			]
+		},
+		{
+			"name": "The World Moves Too Slowly",
+			"source": "FftForbiddenTome",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 13
+				}
+			],
+			"entries": [
+				"Everyone else is still reacting to a moment you already finished understanding.",
+				"Your perception and reflexes operate at supernatural speed.",
+				{
+					"type": "list",
+					"items": [
+						"You can't be Surprised.",
+						"You are immune to the Blinded condition.",
+						"You have Advantage on Initiative rolls and add your Proficiency Bonus to Initiative.",
+						"A d20 roll of 14 or lower on Initiative counts as 15.",
+						"You have Truesight out to 300 feet and Blindsight out to 60 feet.",
+						"Being unable to see a creature doesn't grant that creature Advantage against you.",
+						"You don't have Disadvantage on attacks merely because you can't see your target.",
+						"Invisible, hidden, obscured, or disguised creatures gain no combat benefit against you merely from being unseen or visually concealed.",
+						"You have Advantage on Dexterity saving throws.",
+						"You can take Reactions before your first turn in combat.",
+						"At the start of every creature's turn, you regain one expended Reaction."
+					]
+				},
+				"Whenever a creature or effect you can perceive begins an attack, casts a spell, moves, teleports, activates an ability, produces an area of effect, or otherwise begins something that could affect you, you perceive what is happening before it resolves.",
+				"Once per turn, before the triggering event resolves, you can immediately move up to your Speed.",
+				"This movement:",
+				{
+					"type": "list",
+					"items": [
+						"Requires no Action or Reaction.",
+						"Doesn't provoke Opportunity Attacks.",
+						"Can occur regardless of how much you have already moved.",
+						"Can include climbing, swimming, flying, or any other movement mode you possess.",
+						"Can occur between individual attacks, movements, or effects of the same Action.",
+						"Can cause the triggering attack, spell, ability, or effect to fail against you if you leave its reach, range, line of effect, legal target conditions, or affected area."
+					]
+				},
+				"If your movement makes you an invalid target, the triggering creature doesn't get to choose a replacement target for that specific attack, spell, or effect unless it could normally do so after its target becomes invalid.",
+				"You also can't be caught off guard by speed alone. Effects that claim to occur too quickly to react to, deny Reactions because of their speed, or resolve before a creature could normally respond don't prevent this Invocation from functioning.",
+				"Your body isn't moving through stopped time.",
+				"You simply begin responding before everyone else has finished deciding what they are doing.",
+				"By the time danger happens, you have already moved."
+			]
 		}
 	],
 	"monster": [
